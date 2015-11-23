@@ -1,8 +1,12 @@
 package com.nibado.bing;
 
+import com.nibado.bing.response.ResultDeserializer;
+import org.apache.http.client.fluent.Request;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -10,7 +14,6 @@ import java.util.List;
 public class Bing {
     private static final RouteOptions DEFAULT_OPTIONS = new RouteOptions();
     private static final Logger LOG = LoggerFactory.getLogger(Bing.class);
-
 
     private RouteOptions options;
     private String apiKey;
@@ -20,19 +23,19 @@ public class Bing {
         this.options = DEFAULT_OPTIONS;
     }
 
-    public Route getRoute(WayPoint... wayPoints) {
+    public RouteResponse getRoute(WayPoint... wayPoints) throws IOException {
         return getRoute(options, wayPoints);
     }
 
-    public Route getRoute(RouteOptions options, WayPoint... wayPoints) {
+    public RouteResponse getRoute(RouteOptions options, WayPoint... wayPoints) throws IOException {
         return getRoute(options, Arrays.asList(wayPoints));
     }
 
-    public Route getRoute(List<WayPoint> wayPoints) {
+    public RouteResponse getRoute(List<WayPoint> wayPoints) throws IOException {
         return getRoute(options, wayPoints);
     }
 
-    public Route getRoute(RouteOptions options, List<WayPoint> wayPoints) {
+    public RouteResponse getRoute(RouteOptions options, List<WayPoint> wayPoints) throws IOException {
         String url = new UrlBuilder()
                 .wayPoints(wayPoints)
                 .apply(options)
@@ -42,11 +45,11 @@ public class Bing {
         return request(url);
     }
 
-    public Route getRoute(String... wayPoints) {
+    public RouteResponse getRoute(String... wayPoints) throws IOException {
         return getRoute(options, wayPoints);
     }
 
-    public Route getRoute(RouteOptions options, String... wayPoints) {
+    public RouteResponse getRoute(RouteOptions options, String... wayPoints) throws IOException {
         UrlBuilder builder = new UrlBuilder();
 
         for(String wp : wayPoints) {
@@ -60,10 +63,10 @@ public class Bing {
         return request(url);
     }
 
-    private Route request(String url) {
-        LOG.debug(url);
+    private RouteResponse request(String url) throws IOException {
+        InputStream ins = Request.Get(url).execute().returnContent().asStream();
 
-        return new Route();
+        return new ResultDeserializer().deserilize(ins);
     }
 
     static class UrlBuilder {

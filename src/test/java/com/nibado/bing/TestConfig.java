@@ -1,6 +1,5 @@
 package com.nibado.bing;
 
-import junit.framework.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -19,6 +18,7 @@ public class TestConfig {
         }
         catch(IOException e) {
             LOG.error("Could not load test.properties file from classpath: {}", e.getMessage());
+            throw new RuntimeException(e);
         }
     }
 

@@ -1,0 +1,5280 @@
+{
+  "authenticationResultCode": "ValidCredentials",
+  "brandLogoUri": "http://dev.virtualearth.net/Branding/logo_powered_by.png",
+  "copyright": "Copyright © 2015 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.",
+  "resourceSets": [
+    {
+      "estimatedTotal": 3,
+      "resources": [
+        {
+          "__type": "Route:http://schemas.microsoft.com/search/local/ws/rest/v1",
+          "bbox": [
+            52.073768,
+            4.866541,
+            52.334168,
+            5.130841
+          ],
+          "id": "v66,h-1705922219,i0,a0,cen-US,dAAAAAAAAAAA1,y0,s3,m1,o1,t4,ww2SqYFQqSkAPtAJDVncTQA2~A9pxGcXBbd4SAADgAQAAAAAA0~QW1zdGVyZGFtLCBOZXRoZXJsYW5kcw2~~~~v10,wl_-QfvsKSkDZCMTr-oUUQA2~A9pxGcXhuwsTAADgAQAAgD8A0~VXRyZWNodCwgTmV0aGVybGFuZHM1~~~~v10,k1",
+          "distanceUnit": "Kilometer",
+          "durationUnit": "Second",
+          "routeLegs": [
+            {
+              "actualEnd": {
+                "type": "Point",
+                "coordinates": [
+                  52.085833,
+                  5.130841
+                ]
+              },
+              "actualStart": {
+                "type": "Point",
+                "coordinates": [
+                  52.330719,
+                  4.866541
+                ]
+              },
+              "alternateVias": [],
+              "cost": 0,
+              "description": "E35, Ring Utrecht",
+              "endLocation": {
+                "bbox": [
+                  52.065994,
+                  5.09583,
+                  52.115341,
+                  5.153322
+                ],
+                "name": "Utrecht, Netherlands",
+                "point": {
+                  "type": "Point",
+                  "coordinates": [
+                    52.0858,
+                    5.13084
+                  ]
+                },
+                "address": {
+                  "adminDistrict": "Utrecht",
+                  "adminDistrict2": "Utrecht",
+                  "countryRegion": "Netherlands",
+                  "formattedAddress": "Utrecht, Netherlands",
+                  "locality": "Utrecht"
+                },
+                "confidence": "High",
+                "entityType": "PopulatedPlace",
+                "geocodePoints": [
+                  {
+                    "type": "Point",
+                    "coordinates": [
+                      52.0858,
+                      5.13084
+                    ],
+                    "calculationMethod": "Rooftop",
+                    "usageTypes": [
+                      "Display"
+                    ]
+                  }
+                ],
+                "matchCodes": [
+                  "Good"
+                ]
+              },
+              "itineraryItems": [
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 90,
+                      "endPathIndices": [
+                        1
+                      ],
+                      "maneuverType": "DepartStart",
+                      "mode": "Driving",
+                      "names": [
+                        "Cannenburg"
+                      ],
+                      "roadType": "Street",
+                      "startPathIndices": [
+                        0
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "DepartStart",
+                    "text": "Depart Cannenburg toward Hunneschans"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.330719,
+                      4.866541
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "towardsRoadName": "Hunneschans",
+                  "transitTerminus": "",
+                  "travelDistance": 0.154,
+                  "travelDuration": 45,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "south",
+                  "details": [
+                    {
+                      "compassDegrees": 180,
+                      "endPathIndices": [
+                        3
+                      ],
+                      "locationCodes": [
+                        "817-55347"
+                      ],
+                      "maneuverType": "TurnRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Buitenveldertselaan"
+                      ],
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        1
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnRight",
+                    "text": "Turn right onto Buitenveldertselaan"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.330729,
+                      4.868703
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.325,
+                  "travelDuration": 29,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 88,
+                      "endPathIndices": [
+                        8
+                      ],
+                      "locationCodes": [
+                        "817N55270",
+                        "817+55348",
+                        "817+55271",
+                        "817+55272"
+                      ],
+                      "maneuverType": "TurnLeft",
+                      "mode": "Driving",
+                      "names": [
+                        "Van Nijenrodeweg"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        3
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnLeft",
+                    "text": "Turn left onto Van Nijenrodeweg / s109"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.32787,
+                      4.86874
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 1.472,
+                  "travelDuration": 201,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "north",
+                  "details": [
+                    {
+                      "compassDegrees": 358,
+                      "endPathIndices": [
+                        10
+                      ],
+                      "locationCodes": [
+                        "817+55271",
+                        "817+55272",
+                        "817P55271",
+                        "817P55272"
+                      ],
+                      "maneuverType": "TurnToStayLeft",
+                      "mode": "Driving",
+                      "names": [
+                        "Europaboulevard"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        8
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnToStayLeft",
+                    "text": "Turn left to stay on Europaboulevard / s109"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.328702,
+                      4.889758
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.606,
+                  "travelDuration": 75,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "southeast",
+                  "details": [
+                    {
+                      "compassDegrees": 105,
+                      "endPathIndices": [
+                        16
+                      ],
+                      "maneuverType": "TakeRampRight",
+                      "mode": "Driving",
+                      "names": [
+                        "RAI"
+                      ],
+                      "roadType": "Ramp",
+                      "startPathIndices": [
+                        10
+                      ]
+                    },
+                    {
+                      "compassDegrees": 116,
+                      "endPathIndices": [
+                        18
+                      ],
+                      "locationCodes": [
+                        "817-37197",
+                        "817N37197",
+                        "817-37192",
+                        "817-37194"
+                      ],
+                      "maneuverType": "Merge",
+                      "mode": "Driving",
+                      "names": [
+                        "Ring Amsterdam"
+                      ],
+                      "roadShieldRequestParameters": {
+                        "bucket": 1180289,
+                        "shields": [
+                          {
+                            "labels": [
+                              "E19"
+                            ],
+                            "roadShieldType": 1
+                          }
+                        ]
+                      },
+                      "roadType": "LimitedAccessHighway",
+                      "startPathIndices": [
+                        16
+                      ]
+                    }
+                  ],
+                  "exit": "RAI",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "RampThenHighwayRight",
+                    "text": "At exit RAI, take ramp right for A10 toward Utrecht / Amersfoort / Ring"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.333889,
+                      4.890171
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "A10",
+                    "Utrecht",
+                    "s111",
+                    "Amersfoort",
+                    "Ring"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 1.007,
+                  "travelDuration": 49,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "southeast",
+                  "details": [
+                    {
+                      "compassDegrees": 141,
+                      "endPathIndices": [
+                        27
+                      ],
+                      "maneuverType": "TakeRampRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Knooppunt Amstel"
+                      ],
+                      "roadType": "Ramp",
+                      "startPathIndices": [
+                        18
+                      ]
+                    },
+                    {
+                      "compassDegrees": 148,
+                      "endPathIndices": [
+                        76
+                      ],
+                      "locationCodes": [
+                        "817-38009",
+                        "817N38009",
+                        "817-38006",
+                        "817N38006",
+                        "817-51697",
+                        "817N51697",
+                        "817-38003",
+                        "817N38003",
+                        "817-38002",
+                        "817N38002",
+                        "817-38001",
+                        "817N38001",
+                        "817-38000",
+                        "817N38000",
+                        "817-37999",
+                        "817N37999",
+                        "817-37998",
+                        "817N37998",
+                        "817-37997",
+                        "817N37997"
+                      ],
+                      "maneuverType": "Merge",
+                      "mode": "Driving",
+                      "names": [
+                        "E35",
+                        "A2"
+                      ],
+                      "roadShieldRequestParameters": {
+                        "bucket": 1180289,
+                        "shields": [
+                          {
+                            "labels": [
+                              "E35"
+                            ],
+                            "roadShieldType": 1
+                          }
+                        ]
+                      },
+                      "roadType": "LimitedAccessHighway",
+                      "startPathIndices": [
+                        27
+                      ]
+                    }
+                  ],
+                  "exit": "Knooppunt Amstel",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "RampThenHighwayRight",
+                    "text": "At exit Knooppunt Amstel, take ramp right for E35 / A2 toward Utrecht / P+R Transferium"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.330418,
+                      4.902622
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "E35",
+                    "A2",
+                    "Utrecht",
+                    "P+R Transferium"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 25.089,
+                  "travelDuration": 949,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "severity": "None",
+                      "text": "Entering Utrecht",
+                      "warningType": "AdminDivisionChange"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "southeast",
+                  "details": [
+                    {
+                      "compassDegrees": 154,
+                      "endPathIndices": [
+                        96
+                      ],
+                      "maneuverType": "BearRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Ring Utrecht"
+                      ],
+                      "roadType": "LimitedAccessHighway",
+                      "startPathIndices": [
+                        76
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "BearRight",
+                    "text": "Bear right onto Ring Utrecht"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.124012,
+                      5.0216
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "Ring Noord-West",
+                    "Maarssen",
+                    "N230",
+                    "Vleuten"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 6.087,
+                  "travelDuration": 223,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "origin": "52.119141,5.029582",
+                      "severity": "Minor",
+                      "text": "Minor Congestion",
+                      "to": "52.117671,5.033031",
+                      "warningType": "TrafficFlow"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "southwest",
+                  "details": [
+                    {
+                      "compassDegrees": 210,
+                      "endPathIndices": [
+                        106
+                      ],
+                      "maneuverType": "TakeRampRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Centrum"
+                      ],
+                      "roadType": "Ramp",
+                      "startPathIndices": [
+                        96
+                      ]
+                    }
+                  ],
+                  "exit": "Centrum",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TakeRampRight",
+                    "text": "At exit Centrum, take ramp right toward Utrecht / Langerak / Papendorp / Jaarbeurs"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.083279,
+                      5.075453
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "Utrecht",
+                    "Langerak",
+                    "Papendorp",
+                    "Jaarbeurs"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.592,
+                  "travelDuration": 34,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 98,
+                      "endPathIndices": [
+                        108
+                      ],
+                      "locationCodes": [
+                        "817N57221"
+                      ],
+                      "maneuverType": "KeepStraight",
+                      "mode": "Driving",
+                      "names": [
+                        "Verkeersplein Hooggelegen"
+                      ],
+                      "roadType": "Highway",
+                      "startPathIndices": [
+                        106
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "KeepStraight",
+                    "text": "Keep straight onto Verkeersplein Hooggelegen"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.079288,
+                      5.073591
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.213,
+                  "travelDuration": 13,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "origin": "52.079288,5.073591",
+                      "severity": "Minor",
+                      "text": "Minor Congestion",
+                      "to": "52.079133,5.074589",
+                      "warningType": "TrafficFlow"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 102,
+                      "endPathIndices": [
+                        112
+                      ],
+                      "locationCodes": [
+                        "817-57220"
+                      ],
+                      "maneuverType": "KeepStraight",
+                      "mode": "Driving",
+                      "names": [
+                        "Dominee Martin Luther Kinglaan"
+                      ],
+                      "roadType": "Highway",
+                      "startPathIndices": [
+                        108
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "KeepStraight",
+                    "text": "Keep straight onto Dominee Martin Luther Kinglaan"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.078822,
+                      5.07652
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "Centrum"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.268,
+                  "travelDuration": 53,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "origin": "52.080842,5.090204",
+                      "severity": "LowImpact",
+                      "text": "Construction: Op Oktoberplein - Wegwerkzaamheden.",
+                      "to": "52.08279,5.09498",
+                      "warningType": "ScheduledConstruction"
+                    },
+                    {
+                      "origin": "52.080842,5.090204",
+                      "severity": "LowImpact",
+                      "text": "Incident: Op Oktoberplein - Verkeersproblemen.",
+                      "to": "52.08279,5.09498",
+                      "warningType": "Miscellaneous"
+                    },
+                    {
+                      "origin": "52.080842,5.090204",
+                      "severity": "None",
+                      "text": "Dominee Martin Luther Kinglaan Gesloten op Oktoberplein - Afgesloten.",
+                      "to": "52.08279,5.09498",
+                      "warningType": "BlockedRoad"
+                    },
+                    {
+                      "origin": "52.078682,5.079889",
+                      "severity": "Serious",
+                      "text": "Serious Congestion",
+                      "to": "52.078763,5.080308",
+                      "warningType": "TrafficFlow"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 79,
+                      "endPathIndices": [
+                        114
+                      ],
+                      "locationCodes": [
+                        "817-57220"
+                      ],
+                      "maneuverType": "RoadNameChange",
+                      "mode": "Driving",
+                      "names": [
+                        "De Meernbrug"
+                      ],
+                      "roadType": "Highway",
+                      "startPathIndices": [
+                        112
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "RoadNameChange",
+                    "text": "Road name changes to De Meernbrug"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.078763,
+                      5.080308
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.151,
+                  "travelDuration": 8,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "origin": "52.078763,5.080308",
+                      "severity": "Moderate",
+                      "text": "Moderate Congestion",
+                      "to": "52.078789,5.080458",
+                      "warningType": "TrafficFlow"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 78,
+                      "endPathIndices": [
+                        119
+                      ],
+                      "locationCodes": [
+                        "817-57220"
+                      ],
+                      "maneuverType": "RoadNameChange",
+                      "mode": "Driving",
+                      "names": [
+                        "Dominee Martin Luther Kinglaan"
+                      ],
+                      "roadType": "Highway",
+                      "startPathIndices": [
+                        114
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "RoadNameChange",
+                    "text": "Road name changes to Dominee Martin Luther Kinglaan"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.079149,
+                      5.082389
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.591,
+                  "travelDuration": 42,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "origin": "52.079149,5.082389",
+                      "severity": "Moderate",
+                      "text": "Moderate Congestion",
+                      "to": "52.079412,5.083709",
+                      "warningType": "TrafficFlow"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "southeast",
+                  "details": [
+                    {
+                      "compassDegrees": 127,
+                      "endPathIndices": [
+                        123
+                      ],
+                      "locationCodes": [
+                        "817+57267"
+                      ],
+                      "maneuverType": "BearRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Beneluxlaan"
+                      ],
+                      "roadType": "Highway",
+                      "startPathIndices": [
+                        119
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "BearRight",
+                    "text": "Bear right onto Beneluxlaan"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.080742,
+                      5.090522
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "Rivierenwijk",
+                    "Kanaleneiland"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.844,
+                  "travelDuration": 76,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "origin": "52.080742,5.090522",
+                      "severity": "Moderate",
+                      "text": "Moderate Congestion",
+                      "to": "52.080039,5.091439",
+                      "warningType": "TrafficFlow"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "northeast",
+                  "details": [
+                    {
+                      "compassDegrees": 180,
+                      "endPathIndices": [
+                        129
+                      ],
+                      "locationCodes": [
+                        "817N57263",
+                        "817N57275",
+                        "817P57267",
+                        "817P57263",
+                        "817P57275",
+                        "817N57267"
+                      ],
+                      "maneuverType": "EnterRoundabout",
+                      "mode": "Driving",
+                      "names": [
+                        "5 Meiplein"
+                      ],
+                      "roadType": "Highway",
+                      "startPathIndices": [
+                        123
+                      ]
+                    },
+                    {
+                      "compassDegrees": 56,
+                      "endPathIndices": [
+                        134
+                      ],
+                      "locationCodes": [
+                        "817+57264"
+                      ],
+                      "maneuverType": "ExitRoundabout",
+                      "mode": "Driving",
+                      "names": [
+                        "Koningin Wilhelminalaan"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        129
+                      ]
+                    }
+                  ],
+                  "exit": "3",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "EnterThenExitRoundabout",
+                    "text": "At roundabout, take 3rd exit onto Koningin Wilhelminalaan"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.074251,
+                      5.09654
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "Centrum"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.658,
+                  "travelDuration": 51,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "origin": "52.074251,5.09654",
+                      "severity": "Moderate",
+                      "text": "Moderate Congestion",
+                      "to": "52.074192,5.09654",
+                      "warningType": "TrafficFlow"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "northeast",
+                  "details": [
+                    {
+                      "compassDegrees": 120,
+                      "endPathIndices": [
+                        137
+                      ],
+                      "locationCodes": [
+                        "817P57222",
+                        "817P57264",
+                        "817N57222"
+                      ],
+                      "maneuverType": "EnterRoundabout",
+                      "mode": "Driving",
+                      "names": [
+                        "Anne Frankplein"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        134
+                      ]
+                    },
+                    {
+                      "compassDegrees": 50,
+                      "endPathIndices": [
+                        140
+                      ],
+                      "locationCodes": [
+                        "817+57265"
+                      ],
+                      "maneuverType": "ExitRoundabout",
+                      "mode": "Driving",
+                      "names": [
+                        "Koningin Wilhelminalaan"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        137
+                      ]
+                    }
+                  ],
+                  "exit": "2",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "EnterThenExitRoundabout",
+                    "text": "At roundabout, take 2nd exit"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.076102,
+                      5.104238
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.331,
+                  "travelDuration": 39,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 82,
+                      "endPathIndices": [
+                        143
+                      ],
+                      "locationCodes": [
+                        "817+57265"
+                      ],
+                      "maneuverType": "RoadNameChange",
+                      "mode": "Driving",
+                      "names": [
+                        "Balijebrug"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        140
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "RoadNameChange",
+                    "text": "Road name changes to Balijebrug"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.076842,
+                      5.108659
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.078,
+                  "travelDuration": 5,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 79,
+                      "endPathIndices": [
+                        145
+                      ],
+                      "locationCodes": [
+                        "817+57265"
+                      ],
+                      "maneuverType": "RoadNameChange",
+                      "mode": "Driving",
+                      "names": [
+                        "Balijelaan"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        143
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "RoadNameChange",
+                    "text": "Road name changes to Balijelaan"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.076982,
+                      5.109742
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.349,
+                  "travelDuration": 30,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "northeast",
+                  "details": [
+                    {
+                      "compassDegrees": 62,
+                      "endPathIndices": [
+                        148
+                      ],
+                      "locationCodes": [
+                        "817P57265",
+                        "817-57206"
+                      ],
+                      "maneuverType": "BearLeft",
+                      "mode": "Driving",
+                      "names": [
+                        "Vondellaan"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        145
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "BearLeft",
+                    "text": "Bear left onto Vondellaan"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.077631,
+                      5.114688
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.316,
+                  "travelDuration": 33,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 74,
+                      "endPathIndices": [
+                        152
+                      ],
+                      "locationCodes": [
+                        "817-57206"
+                      ],
+                      "maneuverType": "RoadNameChange",
+                      "mode": "Driving",
+                      "names": [
+                        "Kruisvaartbrug"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        148
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "RoadNameChange",
+                    "text": "Road name changes to Kruisvaartbrug"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.079229,
+                      5.11847
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.025,
+                  "travelDuration": 2,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 104,
+                      "endPathIndices": [
+                        154
+                      ],
+                      "locationCodes": [
+                        "817-57206",
+                        "817-57254"
+                      ],
+                      "maneuverType": "BearRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Vondellaan"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        152
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "BearRight",
+                    "text": "Bear right onto Vondellaan"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.079299,
+                      5.118792
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.227,
+                  "travelDuration": 35,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 109,
+                      "endPathIndices": [
+                        158
+                      ],
+                      "locationCodes": [
+                        "817-57254"
+                      ],
+                      "maneuverType": "RoadNameChange",
+                      "mode": "Driving",
+                      "names": [
+                        "Baden-Powellweg"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        154
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "RoadNameChange",
+                    "text": "Road name changes to Baden-Powellweg"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.078232,
+                      5.121539
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.164,
+                  "travelDuration": 17,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "northeast",
+                  "details": [
+                    {
+                      "compassDegrees": 43,
+                      "endPathIndices": [
+                        160
+                      ],
+                      "locationCodes": [
+                        "817-57254",
+                        "817-57262"
+                      ],
+                      "maneuverType": "TurnLeft",
+                      "mode": "Driving",
+                      "names": [
+                        "Briljantlaan"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        158
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnLeft",
+                    "text": "Turn left onto Briljantlaan"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.077502,
+                      5.123609
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.078,
+                  "travelDuration": 22,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "northeast",
+                  "details": [
+                    {
+                      "compassDegrees": 43,
+                      "endPathIndices": [
+                        165
+                      ],
+                      "locationCodes": [
+                        "817-57254",
+                        "817-57262"
+                      ],
+                      "maneuverType": "RoadNameChange",
+                      "mode": "Driving",
+                      "names": [
+                        "Albatrosstraat"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        160
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "RoadNameChange",
+                    "text": "Road name changes to Albatrosstraat"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.078092,
+                      5.124162
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.329,
+                  "travelDuration": 37,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "northeast",
+                  "details": [
+                    {
+                      "compassDegrees": 62,
+                      "endPathIndices": [
+                        168
+                      ],
+                      "locationCodes": [
+                        "817-57254",
+                        "817-57262",
+                        "817N57262"
+                      ],
+                      "maneuverType": "RoadNameChange",
+                      "mode": "Driving",
+                      "names": [
+                        "Albatrosbrug"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        165
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "RoadNameChange",
+                    "text": "Road name changes to Albatrosbrug"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.08041,
+                      5.126989
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.064,
+                  "travelDuration": 71,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "west",
+                  "details": [
+                    {
+                      "compassDegrees": 280,
+                      "endPathIndices": [
+                        171
+                      ],
+                      "maneuverType": "TurnLeft",
+                      "mode": "Driving",
+                      "names": [
+                        "Abstederdijk"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        168
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnLeft",
+                    "text": "Turn left onto Abstederdijk"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.080839,
+                      5.127268
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.115,
+                  "travelDuration": 28,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "northeast",
+                  "details": [
+                    {
+                      "compassDegrees": 36,
+                      "endPathIndices": [
+                        176
+                      ],
+                      "maneuverType": "TurnRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Tolsteegsingel"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        171
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnRight",
+                    "text": "Turn right onto Tolsteegsingel"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.081128,
+                      5.125771
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.401,
+                  "travelDuration": 51,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "northeast",
+                  "details": [
+                    {
+                      "compassDegrees": 60,
+                      "endPathIndices": [
+                        180
+                      ],
+                      "maneuverType": "RoadNameChange",
+                      "mode": "Driving",
+                      "names": [
+                        "Maliesingel"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        176
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "RoadNameChange",
+                    "text": "Road name changes to Maliesingel"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.084261,
+                      5.128443
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.195,
+                  "travelDuration": 18,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 99,
+                      "endPathIndices": [
+                        182
+                      ],
+                      "locationCodes": [
+                        "817+57207"
+                      ],
+                      "maneuverType": "TurnRight",
+                      "mode": "Driving",
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        180
+                      ]
+                    },
+                    {
+                      "compassDegrees": 70,
+                      "endPathIndices": [
+                        184
+                      ],
+                      "locationCodes": [
+                        "817+57207"
+                      ],
+                      "maneuverType": "BearLeft",
+                      "mode": "Driving",
+                      "names": [
+                        "Oosterstraat"
+                      ],
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        182
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnRightThenBearLeft",
+                    "text": "Turn right and then bear left onto Oosterstraat"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.085538,
+                      5.1301
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.071,
+                  "travelDuration": 25,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 90,
+                      "endPathIndices": [
+                        185
+                      ],
+                      "maneuverType": "TurnToStayRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Oosterstraat"
+                      ],
+                      "roadType": "Street",
+                      "startPathIndices": [
+                        184
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnToStayRight",
+                    "text": "Turn right to stay on Oosterstraat"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.085833,
+                      5.130792
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.005,
+                  "travelDuration": 5,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 90,
+                      "endPathIndices": [
+                        185
+                      ],
+                      "maneuverType": "ArriveFinish",
+                      "mode": "Driving",
+                      "names": [
+                        "Oosterstraat"
+                      ],
+                      "roadType": "Street",
+                      "startPathIndices": [
+                        185
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "hints": [
+                    {
+                      "hintType": "PreviousIntersection",
+                      "text": "The last intersection is Zonstraat"
+                    }
+                  ],
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "ArriveFinish",
+                    "text": "Arrive at Utrecht, Netherlands"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.085833,
+                      5.130841
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0,
+                  "travelDuration": 0,
+                  "travelMode": "Driving"
+                }
+              ],
+              "routeRegion": "EU",
+              "routeSubLegs": [
+                {
+                  "endWaypoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.085833,
+                      5.130841
+                    ],
+                    "description": "Utrecht, Netherlands",
+                    "isVia": false,
+                    "locationIdentifier": "3|218|113|25|197|225|187|11|19|0|0|224|1|0|0|128|63|0|52.085833,5.130841",
+                    "routePathIndex": 185
+                  },
+                  "startWaypoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.330719,
+                      4.866541
+                    ],
+                    "description": "Amsterdam, Netherlands",
+                    "isVia": false,
+                    "locationIdentifier": "3|218|113|25|197|193|109|222|18|0|0|224|1|0|0|0|0|0|52.330719,4.866541",
+                    "routePathIndex": 0
+                  },
+                  "travelDistance": 40.805,
+                  "travelDuration": 2281
+                }
+              ],
+              "startLocation": {
+                "bbox": [
+                  52.024822,
+                  3.974125,
+                  52.717587,
+                  5.810009
+                ],
+                "name": "Amsterdam, Netherlands",
+                "point": {
+                  "type": "Point",
+                  "coordinates": [
+                    52.3307,
+                    4.86654
+                  ]
+                },
+                "address": {
+                  "adminDistrict": "North Holland",
+                  "adminDistrict2": "Amsterdam",
+                  "countryRegion": "Netherlands",
+                  "formattedAddress": "Amsterdam, Netherlands",
+                  "locality": "Amsterdam"
+                },
+                "confidence": "High",
+                "entityType": "PopulatedPlace",
+                "geocodePoints": [
+                  {
+                    "type": "Point",
+                    "coordinates": [
+                      52.3307,
+                      4.86654
+                    ],
+                    "calculationMethod": "Rooftop",
+                    "usageTypes": [
+                      "Display"
+                    ]
+                  }
+                ],
+                "matchCodes": [
+                  "Good"
+                ]
+              },
+              "travelDistance": 40.805,
+              "travelDuration": 2281
+            }
+          ],
+          "trafficCongestion": "Medium",
+          "trafficDataUsed": "None",
+          "travelDistance": 40.805,
+          "travelDuration": 2281,
+          "travelDurationTraffic": 2966
+        },
+        {
+          "__type": "Route:http://schemas.microsoft.com/search/local/ws/rest/v1",
+          "bbox": [
+            52.08549,
+            4.866541,
+            52.350181,
+            5.235023
+          ],
+          "id": "v66,h189335167,i1,a0,cen-US,dAAAAAAAAAAA1,y0,s3,m1,o1,t4,ww2SqYFQqSkAPtAJDVncTQA2~A9pxGcXBbd4SAADgAQAAAAAA0~QW1zdGVyZGFtLCBOZXRoZXJsYW5kcw2~~~~v10,wl_-QfvsKSkDZCMTr-oUUQA2~A9pxGcXhuwsTAADgAQAAgD8A0~VXRyZWNodCwgTmV0aGVybGFuZHM1~~~~v10,k1",
+          "distanceUnit": "Kilometer",
+          "durationUnit": "Second",
+          "routeLegs": [
+            {
+              "actualEnd": {
+                "type": "Point",
+                "coordinates": [
+                  52.085833,
+                  5.130841
+                ]
+              },
+              "actualStart": {
+                "type": "Point",
+                "coordinates": [
+                  52.330719,
+                  4.866541
+                ]
+              },
+              "alternateVias": [
+                {
+                  "name": "",
+                  "point": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.33413,
+                      4.934202
+                    ]
+                  },
+                  "confidence": "High",
+                  "entityType": null
+                }
+              ],
+              "cost": 0,
+              "description": "E231, A27",
+              "endLocation": {
+                "bbox": [
+                  52.065994,
+                  5.09583,
+                  52.115341,
+                  5.153322
+                ],
+                "name": "Utrecht, Netherlands",
+                "point": {
+                  "type": "Point",
+                  "coordinates": [
+                    52.0858,
+                    5.13084
+                  ]
+                },
+                "address": {
+                  "adminDistrict": "Utrecht",
+                  "adminDistrict2": "Utrecht",
+                  "countryRegion": "Netherlands",
+                  "formattedAddress": "Utrecht, Netherlands",
+                  "locality": "Utrecht"
+                },
+                "confidence": "High",
+                "entityType": "PopulatedPlace",
+                "geocodePoints": [
+                  {
+                    "type": "Point",
+                    "coordinates": [
+                      52.0858,
+                      5.13084
+                    ],
+                    "calculationMethod": "Rooftop",
+                    "usageTypes": [
+                      "Display"
+                    ]
+                  }
+                ],
+                "matchCodes": [
+                  "Good"
+                ]
+              },
+              "itineraryItems": [
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 90,
+                      "endPathIndices": [
+                        1
+                      ],
+                      "maneuverType": "DepartStart",
+                      "mode": "Driving",
+                      "names": [
+                        "Cannenburg"
+                      ],
+                      "roadType": "Street",
+                      "startPathIndices": [
+                        0
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "DepartStart",
+                    "text": "Depart Cannenburg toward Hunneschans"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.330719,
+                      4.866541
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "towardsRoadName": "Hunneschans",
+                  "transitTerminus": "",
+                  "travelDistance": 0.154,
+                  "travelDuration": 45,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "south",
+                  "details": [
+                    {
+                      "compassDegrees": 180,
+                      "endPathIndices": [
+                        3
+                      ],
+                      "locationCodes": [
+                        "817-55347"
+                      ],
+                      "maneuverType": "TurnRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Buitenveldertselaan"
+                      ],
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        1
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnRight",
+                    "text": "Turn right onto Buitenveldertselaan"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.330729,
+                      4.868703
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.325,
+                  "travelDuration": 29,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 88,
+                      "endPathIndices": [
+                        8
+                      ],
+                      "locationCodes": [
+                        "817N55270",
+                        "817+55348",
+                        "817+55271",
+                        "817+55272"
+                      ],
+                      "maneuverType": "TurnLeft",
+                      "mode": "Driving",
+                      "names": [
+                        "Van Nijenrodeweg"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        3
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnLeft",
+                    "text": "Turn left onto Van Nijenrodeweg / s109"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.32787,
+                      4.86874
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 1.472,
+                  "travelDuration": 201,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "north",
+                  "details": [
+                    {
+                      "compassDegrees": 358,
+                      "endPathIndices": [
+                        10
+                      ],
+                      "locationCodes": [
+                        "817+55271",
+                        "817+55272",
+                        "817P55271",
+                        "817P55272"
+                      ],
+                      "maneuverType": "TurnToStayLeft",
+                      "mode": "Driving",
+                      "names": [
+                        "Europaboulevard"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        8
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnToStayLeft",
+                    "text": "Turn left to stay on Europaboulevard / s109"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.328702,
+                      4.889758
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.606,
+                  "travelDuration": 75,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "southeast",
+                  "details": [
+                    {
+                      "compassDegrees": 105,
+                      "endPathIndices": [
+                        16
+                      ],
+                      "maneuverType": "TakeRampRight",
+                      "mode": "Driving",
+                      "names": [
+                        "RAI"
+                      ],
+                      "roadType": "Ramp",
+                      "startPathIndices": [
+                        10
+                      ]
+                    },
+                    {
+                      "compassDegrees": 116,
+                      "endPathIndices": [
+                        18
+                      ],
+                      "locationCodes": [
+                        "817-37197",
+                        "817N37197",
+                        "817-37192",
+                        "817-37194"
+                      ],
+                      "maneuverType": "Merge",
+                      "mode": "Driving",
+                      "names": [
+                        "Ring Amsterdam"
+                      ],
+                      "roadShieldRequestParameters": {
+                        "bucket": 1180289,
+                        "shields": [
+                          {
+                            "labels": [
+                              "E19"
+                            ],
+                            "roadShieldType": 1
+                          }
+                        ]
+                      },
+                      "roadType": "LimitedAccessHighway",
+                      "startPathIndices": [
+                        16
+                      ]
+                    }
+                  ],
+                  "exit": "RAI",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "RampThenHighwayRight",
+                    "text": "At exit RAI, take ramp right for A10 toward Utrecht / Amersfoort / Ring"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.333889,
+                      4.890171
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "A10",
+                    "Utrecht",
+                    "s111",
+                    "Amersfoort",
+                    "Ring"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 1.007,
+                  "travelDuration": 49,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "southeast",
+                  "details": [
+                    {
+                      "compassDegrees": 116,
+                      "endPathIndices": [
+                        27
+                      ],
+                      "locationCodes": [
+                        "817N37192",
+                        "817N37194"
+                      ],
+                      "maneuverType": "KeepStraight",
+                      "mode": "Driving",
+                      "names": [
+                        "Ring Amsterdam"
+                      ],
+                      "roadShieldRequestParameters": {
+                        "bucket": 1180289,
+                        "shields": [
+                          {
+                            "labels": [
+                              "A10"
+                            ],
+                            "roadShieldType": 2
+                          }
+                        ]
+                      },
+                      "roadType": "LimitedAccessHighway",
+                      "startPathIndices": [
+                        18
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "KeepStraight",
+                    "text": "Keep straight onto A10 / Ring Amsterdam"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.330418,
+                      4.902622
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "A10 OOST",
+                    "Ring Amsterdam",
+                    "E35",
+                    "Amersfoort"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 1.388,
+                  "travelDuration": 52,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 70,
+                      "endPathIndices": [
+                        37
+                      ],
+                      "locationCodes": [
+                        "817-37191",
+                        "817N37191",
+                        "817-37190",
+                        "817N37190",
+                        "817-37189",
+                        "817N37189",
+                        "817-37187"
+                      ],
+                      "maneuverType": "KeepStraight",
+                      "mode": "Driving",
+                      "names": [
+                        "Ring Amsterdam"
+                      ],
+                      "roadShieldRequestParameters": {
+                        "bucket": 1180289,
+                        "shields": [
+                          {
+                            "labels": [
+                              "E35"
+                            ],
+                            "roadShieldType": 1
+                          }
+                        ]
+                      },
+                      "roadType": "LimitedAccessHighway",
+                      "startPathIndices": [
+                        27
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "KeepStraight",
+                    "text": "Keep straight onto E35 / A10 / Ring Amsterdam"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.329839,
+                      4.921709
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 3.166,
+                  "travelDuration": 119,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 53,
+                      "endPathIndices": [
+                        44
+                      ],
+                      "locationCodes": [
+                        "817P37000"
+                      ],
+                      "maneuverType": "TakeRampRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Knooppunt Watergraafsmeer"
+                      ],
+                      "roadType": "Ramp",
+                      "startPathIndices": [
+                        37
+                      ]
+                    },
+                    {
+                      "compassDegrees": 110,
+                      "endPathIndices": [
+                        117
+                      ],
+                      "locationCodes": [
+                        "817+37003",
+                        "817P37003",
+                        "817+37004",
+                        "817P37004",
+                        "817+37006",
+                        "817P37006",
+                        "817+37008",
+                        "817P37008",
+                        "817+37009",
+                        "817P37009",
+                        "817+37010",
+                        "817P37010",
+                        "817+37011",
+                        "817P37011",
+                        "817+37012",
+                        "817+37013",
+                        "817P37012",
+                        "817P37013",
+                        "817+37015",
+                        "817P37015",
+                        "817+37017",
+                        "817P37017",
+                        "817+37018",
+                        "817P37018",
+                        "817+37019",
+                        "817+37020",
+                        "817P37019",
+                        "817P37020",
+                        "817+37021",
+                        "817P37021",
+                        "817+37022",
+                        "817P37022",
+                        "817+37023",
+                        "817P37023",
+                        "817+51688"
+                      ],
+                      "maneuverType": "Merge",
+                      "mode": "Driving",
+                      "names": [
+                        "E231",
+                        "A1"
+                      ],
+                      "roadShieldRequestParameters": {
+                        "bucket": 1180289,
+                        "shields": [
+                          {
+                            "labels": [
+                              "E231"
+                            ],
+                            "roadShieldType": 1
+                          }
+                        ]
+                      },
+                      "roadType": "LimitedAccessHighway",
+                      "startPathIndices": [
+                        44
+                      ]
+                    }
+                  ],
+                  "exit": "Knooppunt Watergraafsmeer",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "RampThenHighwayRight",
+                    "text": "At exit Knooppunt Watergraafsmeer, take ramp right for E231 / A1 toward Almere / Amersfoort"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.346168,
+                      4.958112
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "E231",
+                    "Almere",
+                    "Amersfoort",
+                    "A1"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 23.978,
+                  "travelDuration": 875,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "origin": "52.334206,4.997342",
+                      "severity": "Minor",
+                      "text": "Construction: Tussen Diemen en Muiderberg - Bouwwerkzaamheden.",
+                      "to": "52.313819,5.109053",
+                      "warningType": "ScheduledConstruction"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "southwest",
+                  "details": [
+                    {
+                      "compassDegrees": 146,
+                      "endPathIndices": [
+                        129
+                      ],
+                      "maneuverType": "TakeRampRight",
+                      "mode": "Driving",
+                      "roadType": "Ramp",
+                      "startPathIndices": [
+                        117
+                      ]
+                    },
+                    {
+                      "compassDegrees": 210,
+                      "endPathIndices": [
+                        133
+                      ],
+                      "maneuverType": "Merge",
+                      "mode": "Driving",
+                      "names": [
+                        "Knooppunt Eemnes"
+                      ],
+                      "roadType": "LimitedAccessHighway",
+                      "startPathIndices": [
+                        129
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "RampThenHighwayRight",
+                    "text": "Take ramp right for A27 toward Hilversum / Utrecht"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.242469,
+                      5.221049
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "A27",
+                    "Hilversum",
+                    "Utrecht"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 2.038,
+                  "travelDuration": 95,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "severity": "None",
+                      "text": "Entering Utrecht",
+                      "warningType": "AdminDivisionChange"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "southwest",
+                  "details": [
+                    {
+                      "compassDegrees": 247,
+                      "endPathIndices": [
+                        182
+                      ],
+                      "locationCodes": [
+                        "817-38361",
+                        "817N38361",
+                        "817-38359",
+                        "817N38359",
+                        "817-38357",
+                        "817-38358",
+                        "817N38357",
+                        "817N38358",
+                        "817-38356",
+                        "817N38356",
+                        "817-38355"
+                      ],
+                      "maneuverType": "BearRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Rijksweg"
+                      ],
+                      "roadShieldRequestParameters": {
+                        "bucket": 1180289,
+                        "shields": [
+                          {
+                            "labels": [
+                              "A27"
+                            ],
+                            "roadShieldType": 2
+                          }
+                        ]
+                      },
+                      "roadType": "LimitedAccessHighway",
+                      "startPathIndices": [
+                        133
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "BearRight",
+                    "text": "Bear right onto A27 / Rijksweg"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.228693,
+                      5.231161
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 14.852,
+                  "travelDuration": 467,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "severity": "None",
+                      "text": "Entering North Holland",
+                      "warningType": "AdminDivisionChange"
+                    },
+                    {
+                      "severity": "None",
+                      "text": "Entering Utrecht",
+                      "warningType": "AdminDivisionChange"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "south",
+                  "details": [
+                    {
+                      "compassDegrees": 158,
+                      "endPathIndices": [
+                        185
+                      ],
+                      "maneuverType": "TakeRampRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Veemarkt"
+                      ],
+                      "roadType": "Ramp",
+                      "startPathIndices": [
+                        182
+                      ]
+                    }
+                  ],
+                  "exit": "Veemarkt",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TakeRampRight",
+                    "text": "At exit Veemarkt, take ramp right toward Centrum / Veemarkt"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.110681,
+                      5.149643
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "Centrum",
+                    "Veemarkt"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.812,
+                  "travelDuration": 33,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "west",
+                  "details": [
+                    {
+                      "compassDegrees": 256,
+                      "endPathIndices": [
+                        191
+                      ],
+                      "locationCodes": [
+                        "817-57234"
+                      ],
+                      "maneuverType": "TurnRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Biltse Rading"
+                      ],
+                      "roadType": "Highway",
+                      "startPathIndices": [
+                        185
+                      ]
+                    }
+                  ],
+                  "exit": "Veemarkt",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnRight",
+                    "text": "Turn right onto Biltse Rading"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.103611,
+                      5.152502
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "Centrum",
+                    "Veemarkt"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.622,
+                  "travelDuration": 52,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "origin": "52.103611,5.152502",
+                      "severity": "Minor",
+                      "text": "Minor Congestion",
+                      "to": "52.103482,5.151971",
+                      "warningType": "TrafficFlow"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "south",
+                  "details": [
+                    {
+                      "compassDegrees": 307,
+                      "endPathIndices": [
+                        197
+                      ],
+                      "locationCodes": [
+                        "817N57234",
+                        "817P57247",
+                        "817N57247",
+                        "817P57234"
+                      ],
+                      "maneuverType": "EnterRoundabout",
+                      "mode": "Driving",
+                      "names": [
+                        "Kardinaal Alfrinkplein"
+                      ],
+                      "roadType": "Highway",
+                      "startPathIndices": [
+                        191
+                      ]
+                    },
+                    {
+                      "compassDegrees": 174,
+                      "endPathIndices": [
+                        203
+                      ],
+                      "locationCodes": [
+                        "817-57246"
+                      ],
+                      "maneuverType": "ExitRoundabout",
+                      "mode": "Driving",
+                      "names": [
+                        "Sartreweg"
+                      ],
+                      "roadType": "Highway",
+                      "startPathIndices": [
+                        197
+                      ]
+                    }
+                  ],
+                  "exit": "3",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "EnterThenExitRoundabout",
+                    "text": "At roundabout, take 3rd exit onto Sartreweg"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.102468,
+                      5.143892
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "Veemarkt",
+                    "Hilversum",
+                    "Voordorp",
+                    "Amersfoort",
+                    "Ring"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.797,
+                  "travelDuration": 50,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "origin": "52.102468,5.143892",
+                      "severity": "Minor",
+                      "text": "Minor Congestion",
+                      "to": "52.102618,5.143683",
+                      "warningType": "TrafficFlow"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "west",
+                  "details": [
+                    {
+                      "compassDegrees": 211,
+                      "endPathIndices": [
+                        206
+                      ],
+                      "locationCodes": [
+                        "817N41570",
+                        "817N57246"
+                      ],
+                      "maneuverType": "EnterRoundabout",
+                      "mode": "Driving",
+                      "names": [
+                        "Berekuil"
+                      ],
+                      "roadType": "Highway",
+                      "startPathIndices": [
+                        203
+                      ]
+                    },
+                    {
+                      "compassDegrees": 254,
+                      "endPathIndices": [
+                        208
+                      ],
+                      "maneuverType": "ExitRoundabout",
+                      "mode": "Driving",
+                      "names": [
+                        "Biltstraat"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        206
+                      ]
+                    }
+                  ],
+                  "exit": "2",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "EnterThenExitRoundabout",
+                    "text": "At roundabout, take 2nd exit onto Biltstraat"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.096438,
+                      5.143479
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "Buiten-Wittevrouwen",
+                    "Oudwijk",
+                    "Wilhwlminapark"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.206,
+                  "travelDuration": 19,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "origin": "52.096438,5.143479",
+                      "severity": "Minor",
+                      "text": "Minor Congestion",
+                      "to": "52.096299,5.143399",
+                      "warningType": "TrafficFlow"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "southwest",
+                  "details": [
+                    {
+                      "compassDegrees": 209,
+                      "endPathIndices": [
+                        210
+                      ],
+                      "maneuverType": "BearLeft",
+                      "mode": "Driving",
+                      "names": [
+                        "Museumbrug"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        208
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "BearLeft",
+                    "text": "Bear left onto Museumbrug"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.09543,
+                      5.141408
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.039,
+                  "travelDuration": 3,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "southwest",
+                  "details": [
+                    {
+                      "compassDegrees": 226,
+                      "endPathIndices": [
+                        215
+                      ],
+                      "maneuverType": "BearRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Museumlaan"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        210
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "BearRight",
+                    "text": "Bear right onto Museumlaan"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.095119,
+                      5.141312
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.243,
+                  "travelDuration": 27,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "northeast",
+                  "details": [
+                    {
+                      "compassDegrees": 27,
+                      "endPathIndices": [
+                        220
+                      ],
+                      "maneuverType": "EnterRoundabout",
+                      "mode": "Driving",
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        215
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "EnterRoundabout",
+                    "text": "Enter roundabout"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.0944,
+                      5.138179
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.06,
+                  "travelDuration": 20,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "south",
+                  "details": [
+                    {
+                      "compassDegrees": 192,
+                      "endPathIndices": [
+                        222
+                      ],
+                      "maneuverType": "ExitRoundabout",
+                      "mode": "Driving",
+                      "names": [
+                        "Maliebaan"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        220
+                      ]
+                    }
+                  ],
+                  "exit": "4",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "ExitRoundabout",
+                    "text": "Exit roundabout at 4th exit onto Maliebaan"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.09433,
+                      5.137932
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.755,
+                  "travelDuration": 68,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "west",
+                  "details": [
+                    {
+                      "compassDegrees": 280,
+                      "endPathIndices": [
+                        224
+                      ],
+                      "locationCodes": [
+                        "817-57208"
+                      ],
+                      "maneuverType": "BearRight",
+                      "mode": "Driving",
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        222
+                      ]
+                    },
+                    {
+                      "compassDegrees": 248,
+                      "endPathIndices": [
+                        229
+                      ],
+                      "locationCodes": [
+                        "817+57207"
+                      ],
+                      "maneuverType": "KeepStraight",
+                      "mode": "Driving",
+                      "names": [
+                        "Maliesingel"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        224
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "BearThenKeep",
+                    "text": "Bear right onto Maliesingel"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.089368,
+                      5.130588
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.502,
+                  "travelDuration": 69,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 99,
+                      "endPathIndices": [
+                        231
+                      ],
+                      "locationCodes": [
+                        "817+57207"
+                      ],
+                      "maneuverType": "BearLeft",
+                      "mode": "Driving",
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        229
+                      ]
+                    },
+                    {
+                      "compassDegrees": 70,
+                      "endPathIndices": [
+                        233
+                      ],
+                      "locationCodes": [
+                        "817+57207"
+                      ],
+                      "maneuverType": "BearLeft",
+                      "mode": "Driving",
+                      "names": [
+                        "Oosterstraat"
+                      ],
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        231
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "BearLeftThenBearLeft",
+                    "text": "Bear left, and then bear left onto Oosterstraat"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.085538,
+                      5.1301
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.071,
+                  "travelDuration": 65,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 90,
+                      "endPathIndices": [
+                        234
+                      ],
+                      "maneuverType": "TurnToStayRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Oosterstraat"
+                      ],
+                      "roadType": "Street",
+                      "startPathIndices": [
+                        233
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnToStayRight",
+                    "text": "Turn right to stay on Oosterstraat"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.085833,
+                      5.130792
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.005,
+                  "travelDuration": 5,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 90,
+                      "endPathIndices": [
+                        234
+                      ],
+                      "maneuverType": "ArriveFinish",
+                      "mode": "Driving",
+                      "names": [
+                        "Oosterstraat"
+                      ],
+                      "roadType": "Street",
+                      "startPathIndices": [
+                        234
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "hints": [
+                    {
+                      "hintType": "PreviousIntersection",
+                      "text": "The last intersection is Zonstraat"
+                    }
+                  ],
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "ArriveFinish",
+                    "text": "Arrive at Utrecht, Netherlands"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.085833,
+                      5.130841
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0,
+                  "travelDuration": 0,
+                  "travelMode": "Driving"
+                }
+              ],
+              "routeRegion": "EU",
+              "routeSubLegs": [
+                {
+                  "endWaypoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.085833,
+                      5.130841
+                    ],
+                    "description": "Utrecht, Netherlands",
+                    "isVia": false,
+                    "locationIdentifier": "3|218|113|25|197|225|187|11|19|0|0|224|1|0|0|128|63|0|52.085833,5.130841",
+                    "routePathIndex": 234
+                  },
+                  "startWaypoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.330719,
+                      4.866541
+                    ],
+                    "description": "Amsterdam, Netherlands",
+                    "isVia": false,
+                    "locationIdentifier": "3|218|113|25|197|193|109|222|18|0|0|224|1|0|0|0|0|0|52.330719,4.866541",
+                    "routePathIndex": 0
+                  },
+                  "travelDistance": 53.098,
+                  "travelDuration": 2431
+                }
+              ],
+              "startLocation": {
+                "bbox": [
+                  52.024822,
+                  3.974125,
+                  52.717587,
+                  5.810009
+                ],
+                "name": "Amsterdam, Netherlands",
+                "point": {
+                  "type": "Point",
+                  "coordinates": [
+                    52.3307,
+                    4.86654
+                  ]
+                },
+                "address": {
+                  "adminDistrict": "North Holland",
+                  "adminDistrict2": "Amsterdam",
+                  "countryRegion": "Netherlands",
+                  "formattedAddress": "Amsterdam, Netherlands",
+                  "locality": "Amsterdam"
+                },
+                "confidence": "High",
+                "entityType": "PopulatedPlace",
+                "geocodePoints": [
+                  {
+                    "type": "Point",
+                    "coordinates": [
+                      52.3307,
+                      4.86654
+                    ],
+                    "calculationMethod": "Rooftop",
+                    "usageTypes": [
+                      "Display"
+                    ]
+                  }
+                ],
+                "matchCodes": [
+                  "Good"
+                ]
+              },
+              "travelDistance": 53.098,
+              "travelDuration": 2431
+            }
+          ],
+          "trafficCongestion": "Mild",
+          "trafficDataUsed": "None",
+          "travelDistance": 53.098,
+          "travelDuration": 2431,
+          "travelDurationTraffic": 2772
+        },
+        {
+          "__type": "Route:http://schemas.microsoft.com/search/local/ws/rest/v1",
+          "bbox": [
+            52.08549,
+            4.866541,
+            52.334168,
+            5.152502
+          ],
+          "id": "v66,h922845666,i2,a0,cen-US,dAAAAAAAAAAA1,y0,s3,m1,o1,t4,ww2SqYFQqSkAPtAJDVncTQA2~A9pxGcXBbd4SAADgAQAAAAAA0~QW1zdGVyZGFtLCBOZXRoZXJsYW5kcw2~~~~v10,wl_-QfvsKSkDZCMTr-oUUQA2~A9pxGcXhuwsTAADgAQAAgD8A0~VXRyZWNodCwgTmV0aGVybGFuZHM1~~~~v10,k1",
+          "distanceUnit": "Kilometer",
+          "durationUnit": "Second",
+          "routeLegs": [
+            {
+              "actualEnd": {
+                "type": "Point",
+                "coordinates": [
+                  52.085833,
+                  5.130841
+                ]
+              },
+              "actualStart": {
+                "type": "Point",
+                "coordinates": [
+                  52.330719,
+                  4.866541
+                ]
+              },
+              "alternateVias": [
+                {
+                  "name": "",
+                  "point": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.160833,
+                      5.011579
+                    ]
+                  },
+                  "confidence": "High",
+                  "entityType": null
+                }
+              ],
+              "cost": 0,
+              "description": "E35, N230",
+              "endLocation": {
+                "bbox": [
+                  52.065994,
+                  5.09583,
+                  52.115341,
+                  5.153322
+                ],
+                "name": "Utrecht, Netherlands",
+                "point": {
+                  "type": "Point",
+                  "coordinates": [
+                    52.0858,
+                    5.13084
+                  ]
+                },
+                "address": {
+                  "adminDistrict": "Utrecht",
+                  "adminDistrict2": "Utrecht",
+                  "countryRegion": "Netherlands",
+                  "formattedAddress": "Utrecht, Netherlands",
+                  "locality": "Utrecht"
+                },
+                "confidence": "High",
+                "entityType": "PopulatedPlace",
+                "geocodePoints": [
+                  {
+                    "type": "Point",
+                    "coordinates": [
+                      52.0858,
+                      5.13084
+                    ],
+                    "calculationMethod": "Rooftop",
+                    "usageTypes": [
+                      "Display"
+                    ]
+                  }
+                ],
+                "matchCodes": [
+                  "Good"
+                ]
+              },
+              "itineraryItems": [
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 90,
+                      "endPathIndices": [
+                        1
+                      ],
+                      "maneuverType": "DepartStart",
+                      "mode": "Driving",
+                      "names": [
+                        "Cannenburg"
+                      ],
+                      "roadType": "Street",
+                      "startPathIndices": [
+                        0
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "DepartStart",
+                    "text": "Depart Cannenburg toward Hunneschans"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.330719,
+                      4.866541
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "towardsRoadName": "Hunneschans",
+                  "transitTerminus": "",
+                  "travelDistance": 0.154,
+                  "travelDuration": 45,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "south",
+                  "details": [
+                    {
+                      "compassDegrees": 180,
+                      "endPathIndices": [
+                        3
+                      ],
+                      "locationCodes": [
+                        "817-55347"
+                      ],
+                      "maneuverType": "TurnRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Buitenveldertselaan"
+                      ],
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        1
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnRight",
+                    "text": "Turn right onto Buitenveldertselaan"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.330729,
+                      4.868703
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.325,
+                  "travelDuration": 29,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 88,
+                      "endPathIndices": [
+                        8
+                      ],
+                      "locationCodes": [
+                        "817N55270",
+                        "817+55348",
+                        "817+55271",
+                        "817+55272"
+                      ],
+                      "maneuverType": "TurnLeft",
+                      "mode": "Driving",
+                      "names": [
+                        "Van Nijenrodeweg"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        3
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnLeft",
+                    "text": "Turn left onto Van Nijenrodeweg / s109"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.32787,
+                      4.86874
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 1.472,
+                  "travelDuration": 201,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "north",
+                  "details": [
+                    {
+                      "compassDegrees": 358,
+                      "endPathIndices": [
+                        10
+                      ],
+                      "locationCodes": [
+                        "817+55271",
+                        "817+55272",
+                        "817P55271",
+                        "817P55272"
+                      ],
+                      "maneuverType": "TurnToStayLeft",
+                      "mode": "Driving",
+                      "names": [
+                        "Europaboulevard"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        8
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnToStayLeft",
+                    "text": "Turn left to stay on Europaboulevard / s109"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.328702,
+                      4.889758
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.606,
+                  "travelDuration": 75,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "southeast",
+                  "details": [
+                    {
+                      "compassDegrees": 105,
+                      "endPathIndices": [
+                        16
+                      ],
+                      "maneuverType": "TakeRampRight",
+                      "mode": "Driving",
+                      "names": [
+                        "RAI"
+                      ],
+                      "roadType": "Ramp",
+                      "startPathIndices": [
+                        10
+                      ]
+                    },
+                    {
+                      "compassDegrees": 116,
+                      "endPathIndices": [
+                        18
+                      ],
+                      "locationCodes": [
+                        "817-37197",
+                        "817N37197",
+                        "817-37192",
+                        "817-37194"
+                      ],
+                      "maneuverType": "Merge",
+                      "mode": "Driving",
+                      "names": [
+                        "Ring Amsterdam"
+                      ],
+                      "roadShieldRequestParameters": {
+                        "bucket": 1180289,
+                        "shields": [
+                          {
+                            "labels": [
+                              "E19"
+                            ],
+                            "roadShieldType": 1
+                          }
+                        ]
+                      },
+                      "roadType": "LimitedAccessHighway",
+                      "startPathIndices": [
+                        16
+                      ]
+                    }
+                  ],
+                  "exit": "RAI",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "RampThenHighwayRight",
+                    "text": "At exit RAI, take ramp right for A10 toward Utrecht / Amersfoort / Ring"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.333889,
+                      4.890171
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "A10",
+                    "Utrecht",
+                    "s111",
+                    "Amersfoort",
+                    "Ring"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 1.007,
+                  "travelDuration": 49,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "southeast",
+                  "details": [
+                    {
+                      "compassDegrees": 141,
+                      "endPathIndices": [
+                        27
+                      ],
+                      "maneuverType": "TakeRampRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Knooppunt Amstel"
+                      ],
+                      "roadType": "Ramp",
+                      "startPathIndices": [
+                        18
+                      ]
+                    },
+                    {
+                      "compassDegrees": 148,
+                      "endPathIndices": [
+                        60
+                      ],
+                      "locationCodes": [
+                        "817-38009",
+                        "817N38009",
+                        "817-38006",
+                        "817N38006",
+                        "817-51697",
+                        "817N51697",
+                        "817-38003",
+                        "817N38003",
+                        "817-38002",
+                        "817N38002",
+                        "817-38001",
+                        "817N38001",
+                        "817-38000",
+                        "817N38000",
+                        "817-37999"
+                      ],
+                      "maneuverType": "Merge",
+                      "mode": "Driving",
+                      "names": [
+                        "E35",
+                        "A2"
+                      ],
+                      "roadShieldRequestParameters": {
+                        "bucket": 1180289,
+                        "shields": [
+                          {
+                            "labels": [
+                              "E35"
+                            ],
+                            "roadShieldType": 1
+                          }
+                        ]
+                      },
+                      "roadType": "LimitedAccessHighway",
+                      "startPathIndices": [
+                        27
+                      ]
+                    }
+                  ],
+                  "exit": "Knooppunt Amstel",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "RampThenHighwayRight",
+                    "text": "At exit Knooppunt Amstel, take ramp right for E35 / A2 toward Utrecht / P+R Transferium"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.330418,
+                      4.902622
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "E35",
+                    "A2",
+                    "Utrecht",
+                    "P+R Transferium"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 18.38,
+                  "travelDuration": 695,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "severity": "None",
+                      "text": "Entering Utrecht",
+                      "warningType": "AdminDivisionChange"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "southwest",
+                  "details": [
+                    {
+                      "compassDegrees": 208,
+                      "endPathIndices": [
+                        67
+                      ],
+                      "maneuverType": "TakeRampRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Breukelen"
+                      ],
+                      "roadType": "Ramp",
+                      "startPathIndices": [
+                        60
+                      ]
+                    }
+                  ],
+                  "exit": "Breukelen",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TakeRampRight",
+                    "text": "At exit Breukelen, take ramp right toward Breukelen / Kockengen"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.17875,
+                      4.986178
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "Breukelen",
+                    "Kockengen"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.794,
+                  "travelDuration": 46,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 253,
+                      "endPathIndices": [
+                        73
+                      ],
+                      "locationCodes": [
+                        "817N45522",
+                        "817P45522"
+                      ],
+                      "maneuverType": "EnterRoundabout",
+                      "mode": "Driving",
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        67
+                      ]
+                    },
+                    {
+                      "compassDegrees": 82,
+                      "endPathIndices": [
+                        75
+                      ],
+                      "locationCodes": [
+                        "817P45522"
+                      ],
+                      "maneuverType": "ExitRoundabout",
+                      "mode": "Driving",
+                      "names": [
+                        "N401"
+                      ],
+                      "roadShieldRequestParameters": {
+                        "bucket": 1180311,
+                        "shields": [
+                          {
+                            "labels": [
+                              "N401"
+                            ],
+                            "roadShieldType": 3
+                          }
+                        ]
+                      },
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        73
+                      ]
+                    }
+                  ],
+                  "exit": "Breukelen",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "EnterThenExitRoundabout",
+                    "text": "At roundabout, take 3rd exit onto N401"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.1719,
+                      4.984891
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.324,
+                  "travelDuration": 32,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 158,
+                      "endPathIndices": [
+                        80
+                      ],
+                      "locationCodes": [
+                        "817P45522"
+                      ],
+                      "maneuverType": "EnterRoundabout",
+                      "mode": "Driving",
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        75
+                      ]
+                    },
+                    {
+                      "compassDegrees": 92,
+                      "endPathIndices": [
+                        85
+                      ],
+                      "locationCodes": [
+                        "817+45523"
+                      ],
+                      "maneuverType": "ExitRoundabout",
+                      "mode": "Driving",
+                      "names": [
+                        "Amerlandseweg"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        80
+                      ]
+                    }
+                  ],
+                  "exit": "2",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "EnterThenExitRoundabout",
+                    "text": "At roundabout, take 2nd exit onto Amerlandseweg"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.172071,
+                      4.988201
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.492,
+                  "travelDuration": 50,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "southeast",
+                  "details": [
+                    {
+                      "compassDegrees": 259,
+                      "endPathIndices": [
+                        89
+                      ],
+                      "locationCodes": [
+                        "817P45523"
+                      ],
+                      "maneuverType": "EnterRoundabout",
+                      "mode": "Driving",
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        85
+                      ]
+                    },
+                    {
+                      "compassDegrees": 144,
+                      "endPathIndices": [
+                        98
+                      ],
+                      "locationCodes": [
+                        "817+45525",
+                        "817P45525",
+                        "817+45524"
+                      ],
+                      "maneuverType": "ExitRoundabout",
+                      "mode": "Driving",
+                      "names": [
+                        "Brugoprit"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        89
+                      ]
+                    }
+                  ],
+                  "exit": "2",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "EnterThenExitRoundabout",
+                    "text": "At roundabout, take 2nd exit onto Brugoprit"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.170789,
+                      4.993651
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 1.123,
+                  "travelDuration": 104,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 157,
+                      "endPathIndices": [
+                        101
+                      ],
+                      "locationCodes": [
+                        "817N45536",
+                        "817P45524"
+                      ],
+                      "maneuverType": "EnterRoundabout",
+                      "mode": "Driving",
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        98
+                      ]
+                    },
+                    {
+                      "compassDegrees": 103,
+                      "endPathIndices": [
+                        138
+                      ],
+                      "locationCodes": [
+                        "817-45530"
+                      ],
+                      "maneuverType": "ExitRoundabout",
+                      "mode": "Driving",
+                      "names": [
+                        "Straatweg"
+                      ],
+                      "roadShieldRequestParameters": {
+                        "bucket": 1180311,
+                        "shields": [
+                          {
+                            "labels": [
+                              "N402"
+                            ],
+                            "roadShieldType": 3
+                          }
+                        ]
+                      },
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        101
+                      ]
+                    }
+                  ],
+                  "exit": "1",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "EnterThenExitRoundabout",
+                    "text": "At roundabout, take 1st exit onto N402 / Straatweg"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.169089,
+                      5.004208
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 4.148,
+                  "travelDuration": 259,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "southeast",
+                  "details": [
+                    {
+                      "compassDegrees": 137,
+                      "endPathIndices": [
+                        141
+                      ],
+                      "locationCodes": [
+                        "817N45530"
+                      ],
+                      "maneuverType": "KeepStraight",
+                      "mode": "Driving",
+                      "names": [
+                        "Straatweg"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        138
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "KeepStraight",
+                    "text": "Keep straight onto Straatweg"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.141242,
+                      5.032908
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.337,
+                  "travelDuration": 22,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "southeast",
+                  "details": [
+                    {
+                      "compassDegrees": 225,
+                      "endPathIndices": [
+                        144
+                      ],
+                      "locationCodes": [
+                        "817N45530"
+                      ],
+                      "maneuverType": "EnterRoundabout",
+                      "mode": "Driving",
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        141
+                      ]
+                    },
+                    {
+                      "compassDegrees": 118,
+                      "endPathIndices": [
+                        146
+                      ],
+                      "locationCodes": [
+                        "817N45530"
+                      ],
+                      "maneuverType": "ExitRoundabout",
+                      "mode": "Driving",
+                      "names": [
+                        "Straatweg"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        144
+                      ]
+                    }
+                  ],
+                  "exit": "2",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "EnterThenExitRoundabout",
+                    "text": "At roundabout, take 2nd exit"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.139,
+                      5.036212
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.222,
+                  "travelDuration": 26,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "northeast",
+                  "details": [
+                    {
+                      "compassDegrees": 236,
+                      "endPathIndices": [
+                        151
+                      ],
+                      "locationCodes": [
+                        "817N45530",
+                        "817+57215",
+                        "817P45530"
+                      ],
+                      "maneuverType": "EnterRoundabout",
+                      "mode": "Driving",
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        146
+                      ]
+                    },
+                    {
+                      "compassDegrees": 43,
+                      "endPathIndices": [
+                        155
+                      ],
+                      "locationCodes": [
+                        "817+57215"
+                      ],
+                      "maneuverType": "ExitRoundabout",
+                      "mode": "Driving",
+                      "names": [
+                        "Kerkweg"
+                      ],
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        151
+                      ]
+                    }
+                  ],
+                  "exit": "3",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "EnterThenExitRoundabout",
+                    "text": "At roundabout, take 3rd exit onto Kerkweg"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.137712,
+                      5.03824
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.469,
+                  "travelDuration": 57,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "northwest",
+                  "details": [
+                    {
+                      "compassDegrees": 319,
+                      "endPathIndices": [
+                        160
+                      ],
+                      "locationCodes": [
+                        "817+57215"
+                      ],
+                      "maneuverType": "TurnLeft",
+                      "mode": "Driving",
+                      "names": [
+                        "Parkweg"
+                      ],
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        155
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnLeft",
+                    "text": "Turn left onto Parkweg"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.138608,
+                      5.04391
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.168,
+                  "travelDuration": 31,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 71,
+                      "endPathIndices": [
+                        164
+                      ],
+                      "locationCodes": [
+                        "817+57215"
+                      ],
+                      "maneuverType": "TurnToStayRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Parkweg"
+                      ],
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        160
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnToStayRight",
+                    "text": "Turn right to stay on Parkweg"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.139992,
+                      5.043379
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.045,
+                  "travelDuration": 5,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 81,
+                      "endPathIndices": [
+                        168
+                      ],
+                      "locationCodes": [
+                        "817+57215"
+                      ],
+                      "maneuverType": "RoadNameChange",
+                      "mode": "Driving",
+                      "names": [
+                        "Huis ten Boschstraat"
+                      ],
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        164
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "RoadNameChange",
+                    "text": "Road name changes to Huis ten Boschstraat"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.14011,
+                      5.043969
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.373,
+                  "travelDuration": 30,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "southeast",
+                  "details": [
+                    {
+                      "compassDegrees": 123,
+                      "endPathIndices": [
+                        170
+                      ],
+                      "locationCodes": [
+                        "817+57215"
+                      ],
+                      "maneuverType": "EnterRoundabout",
+                      "mode": "Driving",
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        168
+                      ]
+                    },
+                    {
+                      "compassDegrees": 118,
+                      "endPathIndices": [
+                        175
+                      ],
+                      "locationCodes": [
+                        "817+57215"
+                      ],
+                      "maneuverType": "ExitRoundabout",
+                      "mode": "Driving",
+                      "names": [
+                        "Doctor Plesmanlaan"
+                      ],
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        170
+                      ]
+                    }
+                  ],
+                  "exit": "1",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "EnterThenExitRoundabout",
+                    "text": "At roundabout, take 1st exit onto Doctor Plesmanlaan"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.141129,
+                      5.049071
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.393,
+                  "travelDuration": 38,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 110,
+                      "endPathIndices": [
+                        179
+                      ],
+                      "locationCodes": [
+                        "817+57215"
+                      ],
+                      "maneuverType": "TurnRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Sweserengseweg"
+                      ],
+                      "roadShieldRequestParameters": {
+                        "bucket": 1180320,
+                        "shields": [
+                          {
+                            "labels": [
+                              "N404"
+                            ],
+                            "roadShieldType": 3
+                          }
+                        ]
+                      },
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        175
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnRight",
+                    "text": "Turn right onto N404 / Sweserengseweg"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.142052,
+                      5.053191
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.414,
+                  "travelDuration": 34,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "southeast",
+                  "details": [
+                    {
+                      "compassDegrees": 253,
+                      "endPathIndices": [
+                        182
+                      ],
+                      "locationCodes": [
+                        "817+57215"
+                      ],
+                      "maneuverType": "EnterRoundabout",
+                      "mode": "Driving",
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        179
+                      ]
+                    },
+                    {
+                      "compassDegrees": 143,
+                      "endPathIndices": [
+                        186
+                      ],
+                      "locationCodes": [
+                        "817+57215",
+                        "817N45551",
+                        "817P57215"
+                      ],
+                      "maneuverType": "ExitRoundabout",
+                      "mode": "Driving",
+                      "names": [
+                        "Sweserengseweg"
+                      ],
+                      "roadShieldRequestParameters": {
+                        "bucket": 1180320,
+                        "shields": [
+                          {
+                            "labels": [
+                              "N404"
+                            ],
+                            "roadShieldType": 3
+                          }
+                        ]
+                      },
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        182
+                      ]
+                    }
+                  ],
+                  "exit": "2",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "EnterThenExitRoundabout",
+                    "text": "Pass through 3 roundabouts, remaining on N404"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.139128,
+                      5.056822
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.648,
+                  "travelDuration": 54,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "west",
+                  "details": [
+                    {
+                      "compassDegrees": 263,
+                      "endPathIndices": [
+                        189
+                      ],
+                      "maneuverType": "TurnRight",
+                      "mode": "Driving",
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        186
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnRight",
+                    "text": "Turn right onto road"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.133769,
+                      5.05958
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.182,
+                  "travelDuration": 15,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 322,
+                      "endPathIndices": [
+                        193
+                      ],
+                      "maneuverType": "TakeRampRight",
+                      "mode": "Driving",
+                      "roadType": "Ramp",
+                      "startPathIndices": [
+                        189
+                      ]
+                    },
+                    {
+                      "compassDegrees": 73,
+                      "endPathIndices": [
+                        226
+                      ],
+                      "locationCodes": [
+                        "817P41424",
+                        "817+41425",
+                        "817+41426",
+                        "817+41427",
+                        "817N57260",
+                        "817P41427",
+                        "817P57260",
+                        "817+41428",
+                        "817N57212",
+                        "817P57212",
+                        "817P41428",
+                        "817+41429"
+                      ],
+                      "maneuverType": "Merge",
+                      "mode": "Driving",
+                      "names": [
+                        "Zuilense Ring"
+                      ],
+                      "roadShieldRequestParameters": {
+                        "bucket": 1180307,
+                        "shields": [
+                          {
+                            "labels": [
+                              "N230"
+                            ],
+                            "roadShieldType": 3
+                          }
+                        ]
+                      },
+                      "roadType": "Highway",
+                      "startPathIndices": [
+                        193
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "RampThenHighwayRight",
+                    "text": "Take ramp right for N230 / Zuilense Ring"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.133072,
+                      5.057219
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 6.54,
+                  "travelDuration": 365,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "origin": "52.130738,5.094341",
+                      "severity": "Minor",
+                      "text": "Minor Congestion",
+                      "to": "52.1301,5.095881",
+                      "warningType": "TrafficFlow"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 72,
+                      "endPathIndices": [
+                        228
+                      ],
+                      "locationCodes": [
+                        "817+41429"
+                      ],
+                      "maneuverType": "RoadNameChange",
+                      "mode": "Driving",
+                      "names": [
+                        "Einthovendreef"
+                      ],
+                      "roadType": "Highway",
+                      "startPathIndices": [
+                        226
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "RoadNameChange",
+                    "text": "Road name changes to Einthovendreef"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.118851,
+                      5.137938
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.203,
+                  "travelDuration": 8,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "origin": "52.118851,5.137938",
+                      "severity": "Minor",
+                      "text": "Minor Congestion",
+                      "to": "52.119141,5.13886",
+                      "warningType": "TrafficFlow"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "southeast",
+                  "details": [
+                    {
+                      "compassDegrees": 81,
+                      "endPathIndices": [
+                        235
+                      ],
+                      "locationCodes": [
+                        "817P41429"
+                      ],
+                      "maneuverType": "TakeRampRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Ring Utrecht"
+                      ],
+                      "roadType": "Ramp",
+                      "startPathIndices": [
+                        228
+                      ]
+                    },
+                    {
+                      "compassDegrees": 155,
+                      "endPathIndices": [
+                        237
+                      ],
+                      "locationCodes": [
+                        "817-38355"
+                      ],
+                      "maneuverType": "Merge",
+                      "mode": "Driving",
+                      "names": [
+                        "A27"
+                      ],
+                      "roadShieldRequestParameters": {
+                        "bucket": 1180289,
+                        "shields": [
+                          {
+                            "labels": [
+                              "A27"
+                            ],
+                            "roadShieldType": 2
+                          }
+                        ]
+                      },
+                      "roadType": "LimitedAccessHighway",
+                      "startPathIndices": [
+                        235
+                      ]
+                    }
+                  ],
+                  "exit": "Ring Utrecht",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "RampThenHighwayRight",
+                    "text": "At exit Ring Utrecht, take ramp right for A27"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.119591,
+                      5.140631
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 1.321,
+                  "travelDuration": 53,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "south",
+                  "details": [
+                    {
+                      "compassDegrees": 158,
+                      "endPathIndices": [
+                        240
+                      ],
+                      "maneuverType": "TakeRampRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Veemarkt"
+                      ],
+                      "roadType": "Ramp",
+                      "startPathIndices": [
+                        237
+                      ]
+                    }
+                  ],
+                  "exit": "Veemarkt",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TakeRampRight",
+                    "text": "At exit Veemarkt, take ramp right toward Centrum / Veemarkt"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.110681,
+                      5.149643
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "Centrum",
+                    "Veemarkt"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.812,
+                  "travelDuration": 33,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "west",
+                  "details": [
+                    {
+                      "compassDegrees": 256,
+                      "endPathIndices": [
+                        246
+                      ],
+                      "locationCodes": [
+                        "817-57234"
+                      ],
+                      "maneuverType": "TurnRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Biltse Rading"
+                      ],
+                      "roadType": "Highway",
+                      "startPathIndices": [
+                        240
+                      ]
+                    }
+                  ],
+                  "exit": "Veemarkt",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnRight",
+                    "text": "Turn right onto Biltse Rading"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.103611,
+                      5.152502
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "Centrum",
+                    "Veemarkt"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.622,
+                  "travelDuration": 52,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "origin": "52.103611,5.152502",
+                      "severity": "Minor",
+                      "text": "Minor Congestion",
+                      "to": "52.103482,5.151971",
+                      "warningType": "TrafficFlow"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "south",
+                  "details": [
+                    {
+                      "compassDegrees": 307,
+                      "endPathIndices": [
+                        252
+                      ],
+                      "locationCodes": [
+                        "817N57234",
+                        "817P57247",
+                        "817N57247",
+                        "817P57234"
+                      ],
+                      "maneuverType": "EnterRoundabout",
+                      "mode": "Driving",
+                      "names": [
+                        "Kardinaal Alfrinkplein"
+                      ],
+                      "roadType": "Highway",
+                      "startPathIndices": [
+                        246
+                      ]
+                    },
+                    {
+                      "compassDegrees": 174,
+                      "endPathIndices": [
+                        258
+                      ],
+                      "locationCodes": [
+                        "817-57246"
+                      ],
+                      "maneuverType": "ExitRoundabout",
+                      "mode": "Driving",
+                      "names": [
+                        "Sartreweg"
+                      ],
+                      "roadType": "Highway",
+                      "startPathIndices": [
+                        252
+                      ]
+                    }
+                  ],
+                  "exit": "3",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "EnterThenExitRoundabout",
+                    "text": "At roundabout, take 3rd exit onto Sartreweg"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.102468,
+                      5.143892
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "Veemarkt",
+                    "Hilversum",
+                    "Voordorp",
+                    "Amersfoort",
+                    "Ring"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.797,
+                  "travelDuration": 50,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "origin": "52.102468,5.143892",
+                      "severity": "Minor",
+                      "text": "Minor Congestion",
+                      "to": "52.102618,5.143683",
+                      "warningType": "TrafficFlow"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "west",
+                  "details": [
+                    {
+                      "compassDegrees": 211,
+                      "endPathIndices": [
+                        261
+                      ],
+                      "locationCodes": [
+                        "817N41570",
+                        "817N57246"
+                      ],
+                      "maneuverType": "EnterRoundabout",
+                      "mode": "Driving",
+                      "names": [
+                        "Berekuil"
+                      ],
+                      "roadType": "Highway",
+                      "startPathIndices": [
+                        258
+                      ]
+                    },
+                    {
+                      "compassDegrees": 254,
+                      "endPathIndices": [
+                        263
+                      ],
+                      "maneuverType": "ExitRoundabout",
+                      "mode": "Driving",
+                      "names": [
+                        "Biltstraat"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        261
+                      ]
+                    }
+                  ],
+                  "exit": "2",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "EnterThenExitRoundabout",
+                    "text": "At roundabout, take 2nd exit onto Biltstraat"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.096438,
+                      5.143479
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "signs": [
+                    "Buiten-Wittevrouwen",
+                    "Oudwijk",
+                    "Wilhwlminapark"
+                  ],
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.206,
+                  "travelDuration": 19,
+                  "travelMode": "Driving",
+                  "warnings": [
+                    {
+                      "origin": "52.096438,5.143479",
+                      "severity": "Minor",
+                      "text": "Minor Congestion",
+                      "to": "52.096299,5.143399",
+                      "warningType": "TrafficFlow"
+                    }
+                  ]
+                },
+                {
+                  "compassDirection": "southwest",
+                  "details": [
+                    {
+                      "compassDegrees": 209,
+                      "endPathIndices": [
+                        265
+                      ],
+                      "maneuverType": "BearLeft",
+                      "mode": "Driving",
+                      "names": [
+                        "Museumbrug"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        263
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "BearLeft",
+                    "text": "Bear left onto Museumbrug"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.09543,
+                      5.141408
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.039,
+                  "travelDuration": 3,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "southwest",
+                  "details": [
+                    {
+                      "compassDegrees": 226,
+                      "endPathIndices": [
+                        270
+                      ],
+                      "maneuverType": "BearRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Museumlaan"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        265
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "BearRight",
+                    "text": "Bear right onto Museumlaan"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.095119,
+                      5.141312
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.243,
+                  "travelDuration": 27,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "northeast",
+                  "details": [
+                    {
+                      "compassDegrees": 27,
+                      "endPathIndices": [
+                        275
+                      ],
+                      "maneuverType": "EnterRoundabout",
+                      "mode": "Driving",
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        270
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "EnterRoundabout",
+                    "text": "Enter roundabout"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.0944,
+                      5.138179
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.06,
+                  "travelDuration": 20,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "south",
+                  "details": [
+                    {
+                      "compassDegrees": 192,
+                      "endPathIndices": [
+                        277
+                      ],
+                      "maneuverType": "ExitRoundabout",
+                      "mode": "Driving",
+                      "names": [
+                        "Maliebaan"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        275
+                      ]
+                    }
+                  ],
+                  "exit": "4",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "ExitRoundabout",
+                    "text": "Exit roundabout at 4th exit onto Maliebaan"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.09433,
+                      5.137932
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.755,
+                  "travelDuration": 68,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "west",
+                  "details": [
+                    {
+                      "compassDegrees": 280,
+                      "endPathIndices": [
+                        279
+                      ],
+                      "locationCodes": [
+                        "817-57208"
+                      ],
+                      "maneuverType": "BearRight",
+                      "mode": "Driving",
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        277
+                      ]
+                    },
+                    {
+                      "compassDegrees": 248,
+                      "endPathIndices": [
+                        284
+                      ],
+                      "locationCodes": [
+                        "817+57207"
+                      ],
+                      "maneuverType": "KeepStraight",
+                      "mode": "Driving",
+                      "names": [
+                        "Maliesingel"
+                      ],
+                      "roadType": "MajorRoad",
+                      "startPathIndices": [
+                        279
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "BearThenKeep",
+                    "text": "Bear right onto Maliesingel"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.089368,
+                      5.130588
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.502,
+                  "travelDuration": 69,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 99,
+                      "endPathIndices": [
+                        286
+                      ],
+                      "locationCodes": [
+                        "817+57207"
+                      ],
+                      "maneuverType": "BearLeft",
+                      "mode": "Driving",
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        284
+                      ]
+                    },
+                    {
+                      "compassDegrees": 70,
+                      "endPathIndices": [
+                        288
+                      ],
+                      "locationCodes": [
+                        "817+57207"
+                      ],
+                      "maneuverType": "BearLeft",
+                      "mode": "Driving",
+                      "names": [
+                        "Oosterstraat"
+                      ],
+                      "roadType": "Arterial",
+                      "startPathIndices": [
+                        286
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "BearLeftThenBearLeft",
+                    "text": "Bear left, and then bear left onto Oosterstraat"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.085538,
+                      5.1301
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.071,
+                  "travelDuration": 65,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 90,
+                      "endPathIndices": [
+                        289
+                      ],
+                      "maneuverType": "TurnToStayRight",
+                      "mode": "Driving",
+                      "names": [
+                        "Oosterstraat"
+                      ],
+                      "roadType": "Street",
+                      "startPathIndices": [
+                        288
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "TurnToStayRight",
+                    "text": "Turn right to stay on Oosterstraat"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.085833,
+                      5.130792
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0.005,
+                  "travelDuration": 5,
+                  "travelMode": "Driving"
+                },
+                {
+                  "compassDirection": "east",
+                  "details": [
+                    {
+                      "compassDegrees": 90,
+                      "endPathIndices": [
+                        289
+                      ],
+                      "maneuverType": "ArriveFinish",
+                      "mode": "Driving",
+                      "names": [
+                        "Oosterstraat"
+                      ],
+                      "roadType": "Street",
+                      "startPathIndices": [
+                        289
+                      ]
+                    }
+                  ],
+                  "exit": "",
+                  "hints": [
+                    {
+                      "hintType": "PreviousIntersection",
+                      "text": "The last intersection is Zonstraat"
+                    }
+                  ],
+                  "iconType": "Auto",
+                  "instruction": {
+                    "formattedText": null,
+                    "maneuverType": "ArriveFinish",
+                    "text": "Arrive at Utrecht, Netherlands"
+                  },
+                  "maneuverPoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.085833,
+                      5.130841
+                    ]
+                  },
+                  "sideOfStreet": "Unknown",
+                  "tollZone": "",
+                  "transitTerminus": "",
+                  "travelDistance": 0,
+                  "travelDuration": 0,
+                  "travelMode": "Driving"
+                }
+              ],
+              "routeRegion": "EU",
+              "routeSubLegs": [
+                {
+                  "endWaypoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.085833,
+                      5.130841
+                    ],
+                    "description": "Utrecht, Netherlands",
+                    "isVia": false,
+                    "locationIdentifier": "3|218|113|25|197|225|187|11|19|0|0|224|1|0|0|128|63|0|52.085833,5.130841",
+                    "routePathIndex": 289
+                  },
+                  "startWaypoint": {
+                    "type": "Point",
+                    "coordinates": [
+                      52.330719,
+                      4.866541
+                    ],
+                    "description": "Amsterdam, Netherlands",
+                    "isVia": false,
+                    "locationIdentifier": "3|218|113|25|197|193|109|222|18|0|0|224|1|0|0|0|0|0|52.330719,4.866541",
+                    "routePathIndex": 0
+                  },
+                  "travelDistance": 44.252,
+                  "travelDuration": 2756
+                }
+              ],
+              "startLocation": {
+                "bbox": [
+                  52.024822,
+                  3.974125,
+                  52.717587,
+                  5.810009
+                ],
+                "name": "Amsterdam, Netherlands",
+                "point": {
+                  "type": "Point",
+                  "coordinates": [
+                    52.3307,
+                    4.86654
+                  ]
+                },
+                "address": {
+                  "adminDistrict": "North Holland",
+                  "adminDistrict2": "Amsterdam",
+                  "countryRegion": "Netherlands",
+                  "formattedAddress": "Amsterdam, Netherlands",
+                  "locality": "Amsterdam"
+                },
+                "confidence": "High",
+                "entityType": "PopulatedPlace",
+                "geocodePoints": [
+                  {
+                    "type": "Point",
+                    "coordinates": [
+                      52.3307,
+                      4.86654
+                    ],
+                    "calculationMethod": "Rooftop",
+                    "usageTypes": [
+                      "Display"
+                    ]
+                  }
+                ],
+                "matchCodes": [
+                  "Good"
+                ]
+              },
+              "travelDistance": 44.252,
+              "travelDuration": 2756
+            }
+          ],
+          "trafficCongestion": "Medium",
+          "trafficDataUsed": "None",
+          "travelDistance": 44.252,
+          "travelDuration": 2756,
+          "travelDurationTraffic": 3453
+        }
+      ]
+    }
+  ],
+  "statusCode": 200,
+  "statusDescription": "OK",
+  "traceId": "b8caa719e60b46fdaccd9789b0c9f5d2|DB40051719|1.0.0.0|DB4SCH010060660, DB4SCH010080519, DB4SCH010060562, DB4SCH010080718, DB40051318, DB40070244"
+}
