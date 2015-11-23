@@ -1,5 +1,8 @@
 package com.nibado.bing;
 
+import java.time.Duration;
+import java.util.Locale;
+
 public class Route {
     private BoundingBox boundingBox;
     private DistanceUnit distanceUnit;
@@ -77,5 +80,17 @@ public class Route {
     public enum TrafficCongestion {
         MEDIUM,
         MILD
+    }
+
+    @Override
+    public String toString() {
+        Duration d1 = Duration.ofSeconds((long)travelDuration);
+        Duration d2 = Duration.ofSeconds((long)travelDurationTraffic);
+
+        return String.format(Locale.ROOT, "Distance: %s km, duration: %s, duration with traffic: %s", (int)travelDistance, format(d1), format(d2));
+    }
+
+    private String format(Duration dur) {
+        return String.format(Locale.ROOT, "%s hours, %s minutes", dur.toHours(), dur.toMinutes() % (dur.toHours() * 60));
     }
 }
