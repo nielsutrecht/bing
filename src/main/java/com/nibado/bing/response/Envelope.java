@@ -13,6 +13,7 @@ class Envelope {
     private String statusDescription;
     private String traceId;
     private List<ResourceSet> resourceSets;
+    private List<String> errorDetails;
 
     public String getAuthenticationResultCode() {
         return authenticationResultCode;
@@ -68,5 +69,13 @@ class Envelope {
 
     public void setResourceSets(List<ResourceSet> resourceSets) {
         this.resourceSets = resourceSets;
+    }
+
+    public List<String> getErrorDetails() {
+        return errorDetails;
+    }
+
+    public void setErrorDetails(List<String> errorDetails) {
+        this.errorDetails = errorDetails;
     }
 }

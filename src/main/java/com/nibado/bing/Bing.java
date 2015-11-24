@@ -64,6 +64,7 @@ public class Bing {
     }
 
     private RouteResponse request(String url) throws IOException {
+        LOG.debug("URL: {}", url);
         InputStream ins = Request.Get(url).execute().returnContent().asStream();
 
         return new ResultDeserializer().deserilize(ins);

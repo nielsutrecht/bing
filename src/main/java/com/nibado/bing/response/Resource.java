@@ -3,7 +3,8 @@ package com.nibado.bing.response;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-@JsonIgnoreProperties(ignoreUnknown = true)
+import java.util.List;
+
 class Resource {
     @JsonProperty
     String id;
@@ -30,8 +31,11 @@ class Resource {
     double travelDistance;
 
     @JsonProperty
-    double travelDuration;
+    int travelDuration;
 
     @JsonProperty
-    double travelDurationTraffic;
+    int travelDurationTraffic;
+
+    @JsonProperty
+    List<RouteLeg> routeLegs;
 }

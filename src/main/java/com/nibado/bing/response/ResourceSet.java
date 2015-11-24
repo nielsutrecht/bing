@@ -6,8 +6,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import java.util.List;
 
 class ResourceSet {
-    @JsonProperty(required = true, value = "estimatedTotal")
+    @JsonProperty
     int estimatedTotal;
-    @JsonProperty(required = true, value = "resources")
+
+    @JsonProperty
     List<Resource> resources;
 }

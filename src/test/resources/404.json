@@ -1,0 +1,14 @@
+{
+  "authenticationResultCode": "ValidCredentials",
+  "brandLogoUri": "http://dev.virtualearth.net/Branding/logo_powered_by.png",
+  "copyright": "Copyright © 2015 Microsoft and its suppliers. All rights reserved. This API cannot be accessed and the content and any results may not be used, reproduced or transmitted in any manner without express written permission from Microsoft Corporation.",
+  "errorDetails": [
+    "One or more locations specified in the waypoint parameter are invalid or require more information.",
+    "sadajhfdsfgsdjhfsdf",
+    "Baasfdsfghksdfghjdfjghsfsdjghgjhdsgjhsdfghjsdf"
+  ],
+  "resourceSets": [],
+  "statusCode": 404,
+  "statusDescription": "Not Found",
+  "traceId": "ddddbd5471074f87a8731d7bd60d0121|DB40061119|1.0.0.0|DB4SCH010060860, DB4SCH010080419, DB4SCH010061328, DB4SCH010060961, DB4SCH010080322"
+}

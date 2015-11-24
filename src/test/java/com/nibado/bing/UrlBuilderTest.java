@@ -19,7 +19,9 @@ public class UrlBuilderTest {
 
         build.apply(options);
 
-        assertThat(build.build())
+        String url = build.build();
+
+        assertThat(url)
                 .contains("dev.virtualearth.net/REST/v1/Routes")
                 .contains("key=MYKEY")
                 .contains("maxSolns=3")
