@@ -79,7 +79,8 @@ public class Route {
 
     public enum TrafficCongestion {
         MEDIUM,
-        MILD
+        MILD,
+        NONE
     }
 
     @Override
