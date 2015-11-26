@@ -1,9 +1,10 @@
 package com.nibado.bing.response;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.nibado.bing.ItenaryItem;
+import com.nibado.bing.LatLon;
 import com.nibado.bing.enums.CompassDirection;
+import com.nibado.bing.enums.ManeuverType;
 import com.nibado.bing.enums.TravelMode;
 import com.nibado.bing.enums.WarningType;
 
@@ -111,7 +112,7 @@ class RouteItenaryItem {
         RoadShieldRequestParameters roadShieldRequestParameters;
 
         public ItenaryItem.Detail toDetail() {
-            return new ItenaryItem.Detail(compassDegrees, maneuverType, TravelMode.from(mode), names, locationCodes, roadType);
+            return new ItenaryItem.Detail(compassDegrees, ManeuverType.from(maneuverType), TravelMode.from(mode), names, locationCodes, roadType);
         }
     }
 
@@ -126,7 +127,7 @@ class RouteItenaryItem {
         String text;
 
         ItenaryItem.Instruction toInstruction() {
-            return new ItenaryItem.Instruction(formattedText, maneuverType, text);
+            return new ItenaryItem.Instruction(formattedText, ManeuverType.from(maneuverType), text);
         }
     }
 
@@ -163,7 +164,7 @@ class RouteItenaryItem {
         String to;
 
         ItenaryItem.Warning toWarning() {
-            return new ItenaryItem.Warning(severity, text, WarningType.from(warningType), origin, to);
+            return new ItenaryItem.Warning(severity, text, WarningType.from(warningType), LatLon.from(origin), LatLon.from(to));
         }
     }
 

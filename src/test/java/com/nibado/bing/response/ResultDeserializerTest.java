@@ -2,10 +2,13 @@ package com.nibado.bing.response;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
+import com.nibado.bing.ItenaryItem;
 import com.nibado.bing.Leg;
 import com.nibado.bing.RouteResponse;
 import com.nibado.bing.enums.CompassDirection;
+import com.nibado.bing.enums.ManeuverType;
 import com.nibado.bing.enums.TravelMode;
+import com.nibado.bing.enums.WarningType;
 import org.junit.Test;
 
 import java.io.IOException;
@@ -59,10 +62,23 @@ public class ResultDeserializerTest {
         assertThat(leg.getTravelDuration()).isEqualTo(146134);
         assertThat(leg.getTravelDistance()).isEqualTo(4512.66);
 
-        assertThat(leg.getItenaryItems()).extracting(i -> i.getTravelMode()).isEqualTo(TravelMode.DRIVING);
-        assertThat(leg.getItenaryItems().get(0).getCompassDirection()).isEqualTo(CompassDirection.EAST);
+        assertThat(leg.getItenaryItems()).extracting(i -> i.getTravelMode()).containsOnly(TravelMode.DRIVING);
 
+        ItenaryItem item = leg.getItenaryItems().get(0);
+        assertThat(item.getCompassDirection()).isEqualTo(CompassDirection.EAST);
+        assertThat(item.getDetails().size()).isEqualTo(1);
+        assertThat(item.getDetails().get(0).getCompassDegrees()).isEqualTo(90);
+        assertThat(item.getTravelDistance()).isEqualTo(0.168);
+        assertThat(item.getTravelDuration()).isEqualTo(77);
+        assertThat(item.getTowardsRoadName()).isEqualTo("20th Ave");
+        assertThat(item.getInstruction().getManeuverType()).isEqualTo(ManeuverType.DEPART_START);
+        assertThat(item.getInstruction().getText()).contains("Depart from");
+        assertThat(item.getDetails().get(0).getManeuverType()).isEqualTo(ManeuverType.DEPART_START);
+        assertThat(item.getDetails().get(0).getTravelMode()).isEqualTo(TravelMode.DRIVING);
+        assertThat(item.getDetails().get(0).getRoadType()).isEqualTo("Street");
+        assertThat(item.getWarnings().get(0).getWarningType()).isEqualTo(WarningType.PRIVATE_ROAD);
 
+        serializeResponse(response);
     }
 
     @Test

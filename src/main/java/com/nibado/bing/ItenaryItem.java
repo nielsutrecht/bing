@@ -1,6 +1,7 @@
 package com.nibado.bing;
 
 import com.nibado.bing.enums.CompassDirection;
+import com.nibado.bing.enums.ManeuverType;
 import com.nibado.bing.enums.TravelMode;
 import com.nibado.bing.enums.WarningType;
 
@@ -88,13 +89,13 @@ public class ItenaryItem {
 
     public static class Detail {
         private final int compassDegrees;
-        private final String maneuverType;
+        private final ManeuverType maneuverType;
         private final TravelMode travelMode;
         private final List<String> names;
         private final List<String> locationCodes;
         private final String roadType;
 
-        public Detail(int compassDegrees, String maneuverType, TravelMode travelMode, List<String> names, List<String> locationCodes, String roadType) {
+        public Detail(int compassDegrees, ManeuverType maneuverType, TravelMode travelMode, List<String> names, List<String> locationCodes, String roadType) {
             this.compassDegrees = compassDegrees;
             this.maneuverType = maneuverType;
             this.travelMode = travelMode;
@@ -107,7 +108,7 @@ public class ItenaryItem {
             return compassDegrees;
         }
 
-        public String getManeuverType() {
+        public ManeuverType getManeuverType() {
             return maneuverType;
         }
 
@@ -130,10 +131,10 @@ public class ItenaryItem {
 
     public static class Instruction {
         private final String formattedText;
-        private final String maneuverType;
+        private final ManeuverType maneuverType;
         private final String text;
 
-        public Instruction(String formattedText, String maneuverType, String text) {
+        public Instruction(String formattedText, ManeuverType maneuverType, String text) {
             this.formattedText = formattedText;
             this.maneuverType = maneuverType;
             this.text = text;
@@ -143,7 +144,7 @@ public class ItenaryItem {
             return formattedText;
         }
 
-        public String getManeuverType() {
+        public ManeuverType getManeuverType() {
             return maneuverType;
         }
 
@@ -156,10 +157,10 @@ public class ItenaryItem {
         private final String severity;
         private final String text;
         private final WarningType warningType;
-        private final String origin;
-        private final String to;
+        private final LatLon origin;
+        private final LatLon to;
 
-        public Warning(String severity, String text, WarningType warningType, String origin, String to) {
+        public Warning(String severity, String text, WarningType warningType, LatLon origin, LatLon to) {
             this.severity = severity;
             this.text = text;
             this.warningType = warningType;
@@ -179,11 +180,11 @@ public class ItenaryItem {
             return warningType;
         }
 
-        public String getOrigin() {
+        public LatLon getOrigin() {
             return origin;
         }
 
-        public String getTo() {
+        public LatLon getTo() {
             return to;
         }
     }

@@ -1,19 +1,27 @@
 package com.nibado.bing;
 
 public class LatLon {
-    private double lat;
-    private double lon;
+    private double lattitude;
+    private double longitude;
 
-    public LatLon(double lat, double lon) {
-        this.lat = lat;
-        this.lon = lon;
+    public LatLon(double lattitude, double longitude) {
+        this.lattitude = lattitude;
+        this.longitude = longitude;
     }
 
     public double getLattitude() {
-        return lat;
+        return lattitude;
     }
 
     public double getLongitude() {
-        return lon;
+        return longitude;
+    }
+
+    public static LatLon from(String value) {
+        if(value == null || value.isEmpty()) {
+            return null;
+        }
+        String[] parts = value.split(",");
+        return new LatLon(Double.parseDouble(parts[0]), Double.parseDouble(parts[1]));
     }
 }

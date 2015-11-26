@@ -10,7 +10,7 @@ public enum WarningType {
     CHECK_TIMETABLE("Check a time table. This usually refers to a ferry or Autorail time table."),
     CONGESTION("The traffic is slow."),
     COUNTRY_CHANGE("The route has left one country and entered another."),
-    DISABLEDVEHICLE("There is a disabled vehicle."),
+    DISABLED_VEHICLE("There is a disabled vehicle."),
     GATE_ACCESS("A gate blocks the road and access is required to continue along the route."),
     GET_OFF_TRANSIT("Get off the transit at this location."),
     GET_ON_TRANSIT("Get on the transit at this location."),
@@ -45,11 +45,11 @@ public enum WarningType {
     }
 
     public String getDescription() {
-        return description;
+       return description;
     }
 
     public static WarningType from(String value) {
-        return enumMap.get(value.toLowerCase());
+       return enumMap.get(value.toLowerCase());
     }
 
     private static Map<String, WarningType> enumMap = new HashMap<>();
