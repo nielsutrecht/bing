@@ -5,6 +5,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.nibado.bing.Leg;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 class RouteLeg {
     @JsonProperty
@@ -52,6 +53,8 @@ class RouteLeg {
         leg.setTravelDuration(travelDuration);
         leg.setStartLocation(startLocation.toLocation());
         leg.setEndLocation(endLocation.toLocation());
+
+        leg.setItenaryItems(itineraryItems.stream().map(RouteItenaryItem::toItenaryItem).collect(Collectors.toList()));
 
         return leg;
     }

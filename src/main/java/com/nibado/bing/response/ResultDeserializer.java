@@ -5,6 +5,9 @@ import com.nibado.bing.BoundingBox;
 import com.nibado.bing.Leg;
 import com.nibado.bing.Route;
 import com.nibado.bing.RouteResponse;
+import com.nibado.bing.enums.DistanceUnit;
+import com.nibado.bing.enums.DurationUnit;
+import com.nibado.bing.enums.TrafficCongestion;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -38,9 +41,9 @@ public class ResultDeserializer {
         Route route = new Route();
 
         route.setBoundingBox(new BoundingBox(resource.boundingBox[0], resource.boundingBox[1], resource.boundingBox[2], resource.boundingBox[3]));
-        route.setDistanceUnit(Route.DistanceUnit.valueOf(resource.distanceUnit.toUpperCase()));
-        route.setDurationUnit(Route.DurationUnit.valueOf(resource.durationUnit.toUpperCase()));
-        route.setTrafficCongestion(Route.TrafficCongestion.valueOf(resource.trafficCongestion.toUpperCase()));
+        route.setDistanceUnit(DistanceUnit.valueOf(resource.distanceUnit.toUpperCase()));
+        route.setDurationUnit(DurationUnit.valueOf(resource.durationUnit.toUpperCase()));
+        route.setTrafficCongestion(TrafficCongestion.valueOf(resource.trafficCongestion.toUpperCase()));
         route.setTravelDistance(resource.travelDistance);
         route.setTravelDuration(resource.travelDuration);
         route.setTravelDurationTraffic(resource.travelDurationTraffic);

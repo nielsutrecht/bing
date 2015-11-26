@@ -2,6 +2,11 @@ package com.nibado.bing;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
+import java.util.List;
+import java.util.Locale;
+
+import static com.nibado.bing.Util.formatDuration;
+
 public class Leg {
     private Location startLocation;
     private Location endLocation;
@@ -10,6 +15,16 @@ public class Leg {
 
     private double travelDistance;
     private int travelDuration;
+
+    public List<ItenaryItem> getItenaryItems() {
+        return itenaryItems;
+    }
+
+    public void setItenaryItems(List<ItenaryItem> itenaryItems) {
+        this.itenaryItems = itenaryItems;
+    }
+
+    private List<ItenaryItem> itenaryItems;
 
     public Location getStartLocation() {
         return startLocation;
@@ -57,6 +72,11 @@ public class Leg {
 
     public void setTravelDuration(int travelDuration) {
         this.travelDuration = travelDuration;
+    }
+
+    @Override
+    public String toString() {
+        return String.format(Locale.ROOT, "Leg from %s to %s, %s km duration %s", startLocation.getName(), endLocation.getName(), (int)travelDistance, formatDuration(travelDuration));
     }
 
     public static class Location {

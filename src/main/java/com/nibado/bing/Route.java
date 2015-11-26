@@ -1,9 +1,14 @@
 package com.nibado.bing;
 
+import com.nibado.bing.enums.DistanceUnit;
+import com.nibado.bing.enums.DurationUnit;
+import com.nibado.bing.enums.TrafficCongestion;
+
 import java.time.Duration;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
+
+import static com.nibado.bing.Util.formatDuration;
 
 public class Route {
     private BoundingBox boundingBox;
@@ -87,24 +92,8 @@ public class Route {
         Duration d1 = Duration.ofSeconds(travelDuration);
         Duration d2 = Duration.ofSeconds(travelDurationTraffic);
 
-        return String.format(Locale.ROOT, "Distance: %s km, duration: %s, duration with traffic: %s", (int)travelDistance, format(d1), format(d2));
+        return String.format(Locale.ROOT, "Distance: %s km, duration: %s, duration with traffic: %s", (int)travelDistance, formatDuration(d1), formatDuration(d2));
     }
 
-    private String format(Duration dur) {
-        return String.format(Locale.ROOT, "%s hours, %s minutes", dur.toHours(), dur.toMinutes() % (dur.toHours() * 60));
-    }
 
-    public enum DistanceUnit {
-        MILE,
-        KILOMETER
-    }
-
-    public enum DurationUnit {
-        SECOND
-    }
-
-    public enum TrafficCongestion {
-        MEDIUM,
-        MILD
-    }
 }

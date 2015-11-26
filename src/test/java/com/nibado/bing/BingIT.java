@@ -21,7 +21,8 @@ public class BingIT {
     public void testRoute() throws IOException {
         RouteOptions options = new RouteOptions();
         options.maxSolutions(3);
-        RouteResponse response = bing.getRoute(options, "Copenhagen", "Barcelona");
+        //RouteResponse response = bing.getRoute(options, "Copenhagen", "Barcelona");
+        RouteResponse response = bing.getRoute(options, "New York", "Los Angeles", "Washington");
 
         assertThat(response.getStatusCode()).isEqualTo(200);
         assertThat(response.getRoutes().size()).isGreaterThan(0).isLessThan(4);

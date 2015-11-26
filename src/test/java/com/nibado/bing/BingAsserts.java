@@ -18,11 +18,24 @@ public class BingAsserts {
         assertThat(r.getTravelDuration()).isEqualTo(duration);
         assertThat(r.getTravelDurationTraffic()).isEqualTo(durationTraffic);
     }
-
-    public static void assertStartFinish(RouteResponse response, String start, String end) {
+    public static void assertLegs(RouteResponse response, String... locations) {
         response.getRoutes().forEach(r -> {
-            assertThat(r.getLegs().get(0).getStartLocation().getName()).contains(start);
-            assertThat(r.getLegs().get(0).getEndLocation().getName()).contains(end);
+            double distance = 0.0;
+            int duration = 0;
+
+            assertThat(r.getLegs().size()).isEqualTo(locations.length - 1);
+
+            for(int i = 0;i < r.getLegs().size();i++) {
+                Leg l = r.getLegs().get(i);
+                distance += l.getTravelDistance();
+                duration += l.getTravelDuration();
+
+                assertThat(l.getStartLocation().getName()).contains(locations[i]);
+                assertThat(l.getEndLocation().getName()).contains(locations[i + 1]);
+            }
+
+            assertThat(r.getTravelDistance()).isEqualTo(distance);
+            assertThat(r.getTravelDuration()).isEqualTo(duration);
         });
     }
 }

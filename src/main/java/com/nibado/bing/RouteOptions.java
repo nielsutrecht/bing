@@ -1,5 +1,10 @@
 package com.nibado.bing;
 
+import com.nibado.bing.enums.DistanceUnit;
+import com.nibado.bing.enums.Optimize;
+import com.nibado.bing.enums.TimeType;
+import com.nibado.bing.enums.TravelMode;
+
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
@@ -21,7 +26,7 @@ public class RouteOptions {
     Optimize optimize = null;
     TimeType timeType = null;
     TravelMode travelMode = null;
-    DistanceUnit distanceUnit = DistanceUnit.Kilometer;
+    DistanceUnit distanceUnit = DistanceUnit.KILOMETER;
     double[] tolerances;
     String dateTime;
     int maxSolutions = -1;
@@ -140,62 +145,5 @@ public class RouteOptions {
         this.maxSolutions = maxSolutions;
 
         return this;
-    }
-
-    public enum Optimize {
-        DISTANCE("distance"),
-        TIME("time"),
-        TIME_WITH_TRAFFIC("timeWithTraffic"),
-        TIME_AVOID_CLOSURE("timeAvoidClosure");
-
-        private String value;
-
-        Optimize(String value) {
-            this.value = value;
-        }
-
-        @Override
-        public String toString() {
-            return value;
-        }
-    }
-
-    public enum TimeType {
-        ARRIVAL("Arrival"),
-        DEPARTURE("Departure"),
-        LAST_AVAILABLE("LastAvailable");
-
-        private String value;
-
-        TimeType(String value) {
-            this.value = value;
-        }
-
-        @Override
-        public String toString() {
-            return value;
-        }
-    }
-
-    public enum TravelMode {
-        DRIVING("Driving"),
-        WALKING("Walking"),
-        TRANSIT("Transit");
-
-        private String value;
-
-        TravelMode(String value) {
-            this.value = value;
-        }
-
-        @Override
-        public String toString() {
-            return value;
-        }
-    }
-
-    public enum DistanceUnit {
-        Kilometer,
-        Mile
     }
 }

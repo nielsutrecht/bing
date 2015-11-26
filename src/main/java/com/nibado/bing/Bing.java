@@ -1,5 +1,6 @@
 package com.nibado.bing;
 
+import com.nibado.bing.enums.DistanceUnit;
 import com.nibado.bing.response.ResultDeserializer;
 import org.apache.http.client.fluent.Request;
 import org.slf4j.Logger;
@@ -7,6 +8,8 @@ import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.UnsupportedEncodingException;
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -171,7 +174,7 @@ public class Bing {
                 current.append(list.build());
             }
 
-            if(options.distanceUnit == RouteOptions.DistanceUnit.Mile) {
+            if(options.distanceUnit == DistanceUnit.MILE) {
                 addSeparator();
                 current.append("du=mi");
             }
@@ -226,7 +229,17 @@ public class Bing {
                 }
                 current.append(++index);
                 current.append('=');
-                current.append(wp.getWayPoint());
+
+                current.append(urlEncode(wp));
+            }
+        }
+
+        private static String urlEncode(WayPoint wayPoint) {
+            try {
+                return URLEncoder.encode(wayPoint.getWayPoint(), "UTF-8");
+            }
+            catch (UnsupportedEncodingException e) {
+                throw new RuntimeException(e);
             }
         }
 

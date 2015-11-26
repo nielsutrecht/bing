@@ -2,8 +2,14 @@ package com.nibado.bing.response;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import com.nibado.bing.ItenaryItem;
+import com.nibado.bing.enums.CompassDirection;
+import com.nibado.bing.enums.TravelMode;
+import com.nibado.bing.enums.WarningType;
 
+import java.util.Collections;
 import java.util.List;
+import java.util.stream.Collectors;
 
 class RouteItenaryItem {
     @JsonProperty
@@ -54,9 +60,31 @@ class RouteItenaryItem {
     @JsonProperty
     List<Hint> hints;
 
+    ItenaryItem toItenaryItem() {
+        List<ItenaryItem.Detail> detailList = details.stream().map(Detail::toDetail).collect(Collectors.toList());
+        List<ItenaryItem.Hint> hintList = hints == null ? Collections.emptyList() : hints.stream().map(Hint::toHint).collect(Collectors.toList());
+        List<ItenaryItem.Warning> warningList = warnings == null ? Collections.emptyList() : warnings.stream().map(Warning::toWarning).collect(Collectors.toList());
+
+        ItenaryItem item = new ItenaryItem(CompassDirection.from(compassDirection),
+                TravelMode.from(travelMode),
+                exit,
+                travelDistance,
+                travelDuration,
+                detailList,
+                instruction.toInstruction(),
+                sideOfStreet,
+                tollZone,
+                towardsRoadName,
+                transitTerminus,
+                warningList,
+                hintList);
+
+        return item;
+    }
+
     static class Detail {
         @JsonProperty
-        String compassDegrees;
+        int compassDegrees;
 
         @JsonProperty
         int[] endPathIndices;
@@ -81,6 +109,10 @@ class RouteItenaryItem {
 
         @JsonProperty
         RoadShieldRequestParameters roadShieldRequestParameters;
+
+        public ItenaryItem.Detail toDetail() {
+            return new ItenaryItem.Detail(compassDegrees, maneuverType, TravelMode.from(mode), names, locationCodes, roadType);
+        }
     }
 
     static class Instruction {
@@ -92,6 +124,10 @@ class RouteItenaryItem {
 
         @JsonProperty
         String text;
+
+        ItenaryItem.Instruction toInstruction() {
+            return new ItenaryItem.Instruction(formattedText, maneuverType, text);
+        }
     }
 
     static class RoadShieldRequestParameters {
@@ -125,6 +161,10 @@ class RouteItenaryItem {
 
         @JsonProperty
         String to;
+
+        ItenaryItem.Warning toWarning() {
+            return new ItenaryItem.Warning(severity, text, WarningType.from(warningType), origin, to);
+        }
     }
 
     static class Hint {
@@ -133,5 +173,9 @@ class RouteItenaryItem {
 
         @JsonProperty
         String text;
+
+        ItenaryItem.Hint toHint() {
+            return new ItenaryItem.Hint(hintType, text);
+        }
     }
 }
