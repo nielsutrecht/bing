@@ -94,6 +94,4 @@ public class Route {
 
         return String.format(Locale.ROOT, "Distance: %s km, duration: %s, duration with traffic: %s", (int)travelDistance, formatDuration(d1), formatDuration(d2));
     }
-
-
 }
